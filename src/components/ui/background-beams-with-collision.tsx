@@ -13,58 +13,60 @@ export const BackgroundBeamsWithCollision = ({
   const containerRef = useRef<HTMLDivElement>(null)
   const parentRef = useRef<HTMLDivElement>(null)
 
+  const translateX = (x: number): number => x + 1800
+
+  const xValue = (x: number) => {
+    return {
+      initialX: x,
+      translateX: translateX(x)
+    }
+  }
+
   const beams = [
     {
-      initialX: 10,
-      translateX: 1300,
+      ...xValue(10),
       rotate: -45,
       duration: 7,
       repeatDelay: 3,
       delay: 2
     },
     {
-      initialX: 600,
-      translateX: 1800,
+      ...xValue(600),
       rotate: -45,
       duration: 3,
       repeatDelay: 3,
       delay: 4
     },
     {
-      initialX: 100,
-      translateX: 1400,
+      ...xValue(100),
       rotate: -45,
       duration: 7,
       repeatDelay: 7,
       className: 'h-6'
     },
     {
-      initialX: 400,
-      translateX: 1900,
+      ...xValue(400),
       rotate: -45,
       duration: 5,
       repeatDelay: 14,
       delay: 4
     },
     {
-      initialX: 800,
-      translateX: 2350,
+      ...xValue(800),
       rotate: -45,
       duration: 11,
       repeatDelay: 2,
       className: 'h-20'
     },
     {
-      initialX: 1000,
-      translateX: 2850,
+      ...xValue(1000),
       rotate: -45,
       duration: 4,
       repeatDelay: 2,
       className: 'h-12'
     },
     {
-      initialX: 1200,
-      translateX: 3250,
+      ...xValue(1200),
       rotate: -45,
       duration: 6,
       repeatDelay: 4,
