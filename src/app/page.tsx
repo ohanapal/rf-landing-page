@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className='min-h-screen bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 relative overflow-hidden'>
-      <div className='absolute inset-0 flex -rotate-45 isolate h-full w-full scale-200 translate-x-40 opacity-30'>
+      <div className='absolute inset-0 flex -rotate-45 isolate h-full w-full scale-200 translate-x-40 opacity-25'>
         <div className='w-1/10 bg-neutral-700 h-full'></div>
         <div className='w-[3%] bg-neutral-800 h-full border-r border-l border-neutral-400 border-dashed'></div>
         <div className='w-1/10 bg-neutral-700 h-full'></div>
