@@ -6,18 +6,20 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className='min-h-screen bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 relative overflow-hidden'>
-      <div className='absolute inset-0 flex flex-col rotate-45 scale-150 isolate opacity-20'>
-        <div className='h-1/5 bg-neutral-700'>
-          <div className='h-1 w-full border-t-2 border-dashed border-neutral-400'></div>
-        </div>
-        <div className='h-1/5 bg-neutral-600 flex items-center justify-center'>
-          <div className='h-1 w-full border-t-2 border-dashed border-neutral-400'></div>
-        </div>
-        <div className='h-1/5 bg-neutral-700 flex items-center justify-center'>
-          <div className='h-1 w-full border-t-2 border-dashed border-neutral-400'></div>
-        </div>
-        <div className='h-1/5 bg-neutral-600'></div>
-        <div className='h-1/5 bg-neutral-700'></div>
+      <div className='absolute inset-0 flex -rotate-45 isolate h-full w-full scale-200 translate-x-40 opacity-30'>
+        <div className='w-1/10 bg-neutral-700 h-full'></div>
+        <div className='w-[3%] bg-neutral-800 h-full border-r border-l border-neutral-400 border-dashed'></div>
+        <div className='w-1/10 bg-neutral-700 h-full'></div>
+        <div className='w-[3%] bg-neutral-800 h-full border-r border-l border-neutral-400 border-dashed'></div>
+        <div className='w-1/10 bg-neutral-700 h-full'></div>
+        <div className='w-[3%] bg-neutral-800 h-full border-r border-l border-neutral-400 border-dashed'></div>
+        <div className='w-1/10 bg-gradient-to-b from-neutral-800 to-neutral-400 h-full'></div>
+        <div className='w-[3%] bg-neutral-800 h-full border-r border-l border-neutral-400 border-dashed'></div>
+        <div className='w-1/10 bg-neutral-800 h-full'></div>
+        <div className='w-[3%] bg-neutral-800 h-full border-r border-l border-neutral-400 border-dashed'></div>
+        <div className='w-1/10 bg-neutral-700 h-full'></div>
+        <div className='w-[3%] bg-neutral-800 h-full border-r border-l border-neutral-400 border-dashed'></div>
+        <div className='w-1/10 bg-neutral-700 h-full'></div>
       </div>
       <div className='relative z-10'>
         <BackgroundBeamsWithCollision>
