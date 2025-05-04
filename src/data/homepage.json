@@ -1,0 +1,32 @@
+{
+  "about": {
+    "title": "About Rebel Force",
+    "description": "We deliver cutting-edge technology solutions that drive real business results.",
+    "cardItems": [
+      {
+        "id": 1,
+        "title": "Innovation",
+        "description": "Cutting-edge solutions that keep you ahead of competitors",
+        "icon": "lucide:rocket"
+      },
+      {
+        "id": 2,
+        "title": "Reliability",
+        "description": "99.9% uptime with enterprise-grade security",
+        "icon": "lucide:shield"
+      },
+      {
+        "id": 3,
+        "title": "Expertise",
+        "description": "Certified specialists with 10+ years of experience",
+        "icon": "lucide:users"
+      },
+      {
+        "id": 4,
+        "title": "Support",
+        "description": "24/7 dedicated support with 15-minute response time",
+        "icon": "lucide:globe"
+      }
+    ]
+  }
+}
