@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </BackgroundBeamsWithCollision>
         <div className='pb-32'>
-          <div className='max-w-7xl mx-auto rounded-4xl border-2 p-2 bg-gray-400'>
+          <div className='max-w-7xl mx-auto bg-gray-400 rounded-4xl border-2 p-2'>
             <div className='w-full h-full bg-gray-500 rounded-3xl p-2'>
               <div className='w-full h-full bg-gray-600 rounded-2xl p-2'>
                 <div className='w-full h-full bg-gray-700 rounded-xl p-2'>
