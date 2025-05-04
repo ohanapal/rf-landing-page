@@ -8,7 +8,7 @@ export default function AboutCardItem({
   const Icon = getLucideIcon(item.icon)
 
   return (
-    <div key={item.id} className='flex flex-col items-center justify-center gap-3 text-center text-balance'>
+    <div key={item.id} className='flex flex-col items-center justify-center gap-2 text-center text-balance my-2'>
       <div className='bg-[#121924] rounded-md size-16 flex items-center justify-center'>
         <Icon className='size-8 text-primary' />
       </div>

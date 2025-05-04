@@ -6,7 +6,7 @@ import AboutCardItem from './AboutCardItem'
 export default function About() {
   const { about } = data
   return (
-    <section className='container py-32'>
+    <section className='container py-24'>
       <div className='max-2xl mx-auto text-center text-balance space-y-4 mb-16'>
         <h2 className='text-4xl font-bold'>
           About <span className='text-primary'>Rebel Force</span>
@@ -38,8 +38,8 @@ export default function About() {
           <Button>Learn More</Button>
         </div>
 
-        <MagicCard className='rounded-md p-3'>
-          <div className='grid grid-cols-2 gap-3'>
+        <MagicCard className='rounded-md backdrop-blur-3xl'>
+          <div className='grid grid-cols-2 gap-3 bg-[#0d0d0d70] p-3'>
             {about.cardItems.map((item) => (
               <AboutCardItem key={item.id} item={item} />
             ))}

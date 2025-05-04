@@ -28,5 +28,113 @@
         "icon": "lucide:globe"
       }
     ]
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer a wide range of technology solutions to help your business thrive in the digital galaxy.",
+    "tabs": [
+      {
+        "id": 1,
+        "title": "CMS Solutions",
+        "icon": "lucide:database",
+        "content": {
+          "img": "/images/homepage/services/placeholder.png",
+          "title": "CMS Solutions",
+          "description": "We offer comprehensive CMS solutions that streamline digital content management, utilizing platforms like WordPress, Shopify, Magento, and OpenCart.",
+          "listItems": [
+            "Custom CMS Development",
+            "E-commerce Solutions",
+            "Content Management",
+            "User Management",
+            "Reporting and Analytics"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "title": "Platforms",
+        "icon": "lucide:globe",
+        "content": {
+          "img": "/images/homepage/services/placeholder.png",
+          "title": "Platforms",
+          "description": "We offer mobile and web platforms that are designed to help your business thrive in the digital galaxy.",
+          "listItems": [
+            "Custom CMS Development",
+            "E-commerce Solutions",
+            "Content Management",
+            "User Management",
+            "Reporting and Analytics"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "title": "User Experience",
+        "icon": "lucide:layers",
+        "content": {
+          "img": "/images/homepage/services/placeholder.png",
+          "title": "User Experience",
+          "description": "We offer user interfaces and user experiences that are designed to help your business thrive in the digital galaxy.",
+          "listItems": [
+            "Custom CMS Development",
+            "E-commerce Solutions",
+            "Content Management",
+            "User Management",
+            "Reporting and Analytics"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "title": "Infrastructure",
+        "icon": "lucide:cpu",
+        "content": {
+          "img": "/images/homepage/services/placeholder.png",
+          "title": "Infrastructure",
+          "description": "We offer infrastructure solutions that are designed to help your business thrive in the digital galaxy.",
+          "listItems": [
+            "Custom CMS Development",
+            "E-commerce Solutions",
+            "Content Management",
+            "User Management",
+            "Reporting and Analytics"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "title": "CAD/CAM",
+        "icon": "lucide:code",
+        "content": {
+          "img": "/images/homepage/services/placeholder.png",
+          "title": "CAD/CAM",
+          "description": "We offer CAD/CAM solutions that are designed to help your business thrive in the digital galaxy.",
+          "listItems": [
+            "Custom CMS Development",
+            "E-commerce Solutions",
+            "Content Management",
+            "User Management",
+            "Reporting and Analytics"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "title": "AI & ML",
+        "icon": "lucide:sparkles",
+        "content": {
+          "img": "/images/homepage/services/placeholder.png",
+          "title": "AI & ML",
+          "description": "We offer AI and ML solutions that are designed to help your business thrive in the digital galaxy.",
+          "listItems": [
+            "Custom CMS Development",
+            "E-commerce Solutions",
+            "Content Management",
+            "User Management",
+            "Reporting and Analytics"
+          ]
+        }
+      }
+    ]
   }
 }
