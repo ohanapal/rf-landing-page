@@ -1,0 +1,34 @@
+import Link from 'next/link'
+
+import logoDark from '@/assets/logo/logo-dark.png'
+import Image from 'next/image'
+import { Button } from '../ui/button'
+
+export default function Navbar() {
+  return (
+    <nav className='fixed top-0 left-0 right-0 z-50 w-full h-16 backdrop-blur-lg'>
+      <div className='container mx-auto flex items-center justify-between h-full py-2'>
+        <Link href='/' className='h-full'>
+          <Image src={logoDark} alt='logo' className='w-auto h-full' />
+        </Link>
+
+        <ul className='flex items-center gap-4'>
+          <li>
+            <Link href='/'>Home</Link>
+          </li>
+          <li>
+            <Link href='/about'>About</Link>
+          </li>
+          <li>
+            <Link href='/contact'>Contact</Link>
+          </li>
+        </ul>
+
+        <div className='flex items-center gap-4'>
+          <Button variant='outline'>Login</Button>
+          <Button>Sign Up</Button>
+        </div>
+      </div>
+    </nav>
+  )
+}
