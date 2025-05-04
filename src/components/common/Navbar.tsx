@@ -33,7 +33,7 @@ export default function Navbar() {
     >
       <div
         className={cn(
-          'container mx-auto flex items-center justify-between h-full py-2 w-full transition-all duration-500 backdrop-blur-lg rounded-none px-0 delay-100',
+          'container flex items-center justify-between h-full py-2 w-full transition-all duration-500 backdrop-blur-lg rounded-none px-0 delay-100',
           {
             'bg-neutral-300/20 max-w-3xl rounded-full px-5': isScrolled,
           },
