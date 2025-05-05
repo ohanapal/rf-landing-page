@@ -1,4 +1,5 @@
 import About from '@/components/pages/homepage/About'
+import Contact from '@/components/pages/homepage/Contact'
 import CTA from '@/components/pages/homepage/CTA'
 import CTOAsService from '@/components/pages/homepage/CTOAsService'
 import Hero from '@/components/pages/homepage/Hero'
@@ -23,6 +24,7 @@ export default function Home() {
       <CTA cta={cta2} />
       <Team />
       <Testimonials />
+      <Contact />
     </main>
   )
 }

@@ -577,5 +577,12 @@
         }
       }
     ]
+  },
+  "contact": {
+    "title": {
+      "text": "Contact",
+      "span": "Us"
+    },
+    "description": "Ready to transform your business with cutting-edge technology? Get in touch for a free consultation."
   }
 }
