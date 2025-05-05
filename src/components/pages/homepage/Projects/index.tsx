@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <section className='pb-24 pt-16'>
       <div className='container'>
-        <div className='max-2xl mx-auto text-center text-balance space-y-4 mb-16'>
+        <div className='max-w-3xl mx-auto text-center text-balance space-y-4 mb-16'>
           <h2 className='text-3xl font-bold'>
             {projects.title.text} <span className='text-primary'>{projects.title.span}</span>
           </h2>
