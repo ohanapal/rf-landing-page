@@ -1,5 +1,6 @@
 import About from '@/components/pages/homepage/About'
 import CTA from '@/components/pages/homepage/CTA'
+import CTOAsService from '@/components/pages/homepage/CTOAsService'
 import Hero from '@/components/pages/homepage/Hero'
 import Projects from '@/components/pages/homepage/Projects'
 import RebelAdvantage from '@/components/pages/homepage/RebelAdvantage'
@@ -14,6 +15,7 @@ export default function Home() {
       <CTA />
       <Projects />
       <RebelAdvantage />
+      <CTOAsService />
     </main>
   )
 }

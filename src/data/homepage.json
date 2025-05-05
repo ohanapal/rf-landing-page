@@ -329,5 +329,82 @@
       }
     ],
     "imageUrl": "/images/homepage/projects/placeholder.jpg"
+  },
+  "ctoAsService": {
+    "title": {
+      "text": "CTO",
+      "span": "as a Service"
+    },
+    "description": "Hire the Rebel Force team as your strategic technology partner and gain access to elite tech leadership without the overhead.",
+    "leftContent": {
+      "title": "Your Elite Tech Command",
+      "description": "Not every mission requires a full-time CTO, but every business needs strategic technology leadership. Our CTO as a Service offering provides your business with experienced technology leadership and a specialized team at a fraction of the cost of hiring in-house.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Full Squad Access",
+          "description": "Get an experienced CTO plus access to our entire specialized team of developers, designers, and security experts.",
+          "icon": "lucide:users"
+        },
+        {
+          "id": 2,
+          "title": "Accelerated Implementation",
+          "description": "Skip the lengthy hiring process and get your technology initiatives moving at lightspeed with our ready-to-deploy team.",
+          "icon": "lucide:zap"
+        },
+        {
+          "id": 3,
+          "title": "Strategic Advantage",
+          "description": "Leverage our experience across multiple industries to gain insights and competitive advantages you wouldn't get from a single in-house CTO.",
+          "icon": "lucide:chart-column"
+        },
+        {
+          "id": 4,
+          "title": "Flexible Engagement",
+          "description": "Choose from monthly retainers, project-based work, or embedded team models to fit your specific needs and budget.",
+          "icon": "lucide:calendar"
+        }
+      ],
+      "itemsEnding": "We find your lack of tech leadership disturbing",
+      "ctaBtn": {
+        "text": "Schedule a Strategy Call",
+        "link": "/contact"
+      }
+    },
+    "rightContent": {
+      "title": "Why Businesses Choose Us",
+      "imageUrl": "/images/homepage/cto-as-service/placeholder.png",
+      "items": [
+        {
+          "id": 1,
+          "title": "Cost Effective",
+          "description": "60-70% savings compared to hiring a full-time CTO and tech team"
+        },
+        {
+          "id": 2,
+          "title": "Diverse Expertise",
+          "description": "Access to specialists across multiple technology domains"
+        },
+        {
+          "id": 3,
+          "title": "Rapid Scaling",
+          "description": "Quickly scale your tech capabilities up or down as needed"
+        },
+        {
+          "id": 4,
+          "title": "Objective Guidance",
+          "description": "Unbiased technology recommendations based on your specific needs"
+        },
+        {
+          "id": 5,
+          "title": "Proven Results",
+          "description": "Track record of successful technology implementations across industries"
+        }
+      ],
+      "quote": {
+        "text": "Rebel Force has been our technology partner for over 2 years. Their team has transformed our operations and given us a competitive edge we couldn't have achieved on our own.",
+        "author": "Admiral Ackbar, CEO of Ocean Systems"
+      }
+    }
   }
 }
