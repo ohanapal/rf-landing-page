@@ -1,6 +1,8 @@
 'use client'
 import { Carousel, CarouselContent, CarouselItem, CarouselNavigation } from '@/components/ui/carousel'
 import data from '@/data/homepage.json'
+import { Star } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Testimonials() {
   const { testimonials } = data
@@ -12,20 +14,42 @@ export default function Testimonials() {
         </h2>
         <p className='text-muted-foreground text-xl'>{testimonials.description}</p>
       </div>
-
-      <div className='max-w-3xl mx-auto relative bg-[#0d0d0d] rounded-md p-5'>
-        <Carousel>
+      <div className='max-w-3xl mx-auto bg-[#0d0d0d] rounded-md p-8'>
+        <Carousel infiniteScroll itemsToShow={1}>
           <CarouselContent className='-ml-4'>
             {testimonials.testimonials.map((testimonial) => (
-              <CarouselItem key={testimonial.id} className='basis-1/3 pl-4'>
-                <div className='flex aspect-square items-center justify-center border border-zinc-200 dark:border-zinc-800'>
-                  {testimonial.text}
+              <CarouselItem key={testimonial.id} className='pl-4'>
+                <div className='flex flex-col items-center justify-center space-y-6 mb-8'>
+                  <p className='bg-[#17253d] rounded-full px-4 py-1.5 text-primary font-bold'>{testimonial.credits}</p>
+
+                  <div className='flex gap-0.5'>
+                    {Array.from({ length: testimonial.starCount }).map((_, index) => (
+                      <Star key={index} className='size-5 text-[#eab308]' fill='currentColor' />
+                    ))}
+                  </div>
+
+                  <p className='text-2xl text-balance text-center'>{`"${testimonial.text}"`}</p>
+
+                  <div className='flex items-center gap-x-3'>
+                    <Image
+                      src={testimonial.author.imageUrl}
+                      alt={testimonial.author.name}
+                      width={48}
+                      height={48}
+                      className='size-12 rounded-full border-2 border-primary'
+                    />
+
+                    <div className='flex flex-col'>
+                      <p className='text-lg font-bold'>{testimonial.author.name}</p>
+                      <p className='text-primary'>{testimonial.author.title}</p>
+                    </div>
+                  </div>
                 </div>
               </CarouselItem>
             ))}
           </CarouselContent>
           <CarouselNavigation
-            className='absolute -bottom-20 left-auto top-auto w-full justify-center gap-2'
+            className=' -bottom-20 left-auto top-auto w-full justify-center gap-2'
             classNameButton='bg-zinc-800 *:stroke-zinc-50 dark:bg-zinc-200 dark:*:stroke-zinc-800'
             alwaysShow
           />
