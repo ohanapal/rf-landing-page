@@ -26,7 +26,7 @@ export default function CTOAsService() {
           </div>
         </div>
 
-        <div className='rounded-md overflow-hidden border border-white/5'>
+        <div className='rounded-md overflow-hidden border border-white/5 bg-[#0d0d0d]'>
           <Image
             src={ctoAsService.rightContent.imageUrl}
             alt={ctoAsService.rightContent.title}

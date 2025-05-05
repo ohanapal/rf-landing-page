@@ -418,5 +418,122 @@
       "text": "Meet Our Team",
       "link": "/team"
     }
+  },
+  "team": {
+    "title": {
+      "text": "Our",
+      "span": "Team"
+    },
+    "description": "Meet the rebels behind our success, a diverse team of experts dedicated to delivering excellence.",
+    "members": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "title": "CTO",
+        "description": "John is a seasoned technology leader with a passion for building innovative solutions that drive business growth.",
+        "imageUrl": "/images/homepage/team/placeholder.png",
+        "socials": [
+          {
+            "id": 1,
+            "name": "Twitter",
+            "url": "https://twitter.com/rebelforce",
+            "icon": "lucide:twitter"
+          },
+          {
+            "id": 2,
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/rebelforce",
+            "icon": "lucide:linkedin"
+          },
+          {
+            "id": 3,
+            "name": "Instagram",
+            "url": "https://instagram.com/rebelforce",
+            "icon": "lucide:instagram"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "title": "Senior Developer",
+        "description": "Jane is a senior developer with a passion for building innovative solutions that drive business growth.",
+        "imageUrl": "/images/homepage/team/placeholder.png",
+        "socials": [
+          {
+            "id": 1,
+            "name": "Twitter",
+            "url": "https://twitter.com/rebelforce",
+            "icon": "lucide:twitter"
+          },
+          {
+            "id": 2,
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/rebelforce",
+            "icon": "lucide:linkedin"
+          },
+          {
+            "id": 3,
+            "name": "Instagram",
+            "url": "https://instagram.com/rebelforce",
+            "icon": "lucide:instagram"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "John Doe",
+        "title": "CTO",
+        "description": "John is a seasoned technology leader with a passion for building innovative solutions that drive business growth.",
+        "imageUrl": "/images/homepage/team/placeholder.png",
+        "socials": [
+          {
+            "id": 1,
+            "name": "Twitter",
+            "url": "https://twitter.com/rebelforce",
+            "icon": "lucide:twitter"
+          },
+          {
+            "id": 2,
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/rebelforce",
+            "icon": "lucide:linkedin"
+          },
+          {
+            "id": 3,
+            "name": "Instagram",
+            "url": "https://instagram.com/rebelforce",
+            "icon": "lucide:instagram"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "John Doe",
+        "title": "CTO",
+        "description": "John is a seasoned technology leader with a passion for building innovative solutions that drive business growth.",
+        "imageUrl": "/images/homepage/team/placeholder.png",
+        "socials": [
+          {
+            "id": 1,
+            "name": "Twitter",
+            "url": "https://twitter.com/rebelforce",
+            "icon": "lucide:twitter"
+          },
+          {
+            "id": 2,
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/rebelforce",
+            "icon": "lucide:linkedin"
+          },
+          {
+            "id": 3,
+            "name": "Instagram",
+            "url": "https://instagram.com/rebelforce",
+            "icon": "lucide:instagram"
+          }
+        ]
+      }
+    ]
   }
 }
