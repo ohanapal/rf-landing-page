@@ -211,8 +211,12 @@
   "cta": {
     "title": "Ready to Transform Your Business?",
     "description": "Our expert team can help you implement cutting-edge technology solutions that drive real results.",
-    "getStartedBtn": {
-      "text": "Get Started",
+    "btn1": {
+      "text": "View Our Projects",
+      "link": "/projects"
+    },
+    "btn2": {
+      "text": "Contact Us",
       "link": "/contact"
     }
   },
@@ -405,6 +409,14 @@
         "text": "Rebel Force has been our technology partner for over 2 years. Their team has transformed our operations and given us a competitive edge we couldn't have achieved on our own.",
         "author": "Admiral Ackbar, CEO of Ocean Systems"
       }
+    }
+  },
+  "cta2": {
+    "title": "Ready to Transform Your Business?",
+    "description": "Our expert team can help you implement cutting-edge technology solutions that drive real results.",
+    "btn1": {
+      "text": "Meet Our Team",
+      "link": "/team"
     }
   }
 }

@@ -5,17 +5,20 @@ import Hero from '@/components/pages/homepage/Hero'
 import Projects from '@/components/pages/homepage/Projects'
 import RebelAdvantage from '@/components/pages/homepage/RebelAdvantage'
 import Services from '@/components/pages/homepage/Services'
+import data from '@/data/homepage.json'
 
 export default function Home() {
+  const { cta, cta2 } = data
   return (
     <main>
       <Hero />
       <About />
       <Services />
-      <CTA />
+      <CTA cta={cta} />
       <Projects />
       <RebelAdvantage />
       <CTOAsService />
+      <CTA cta={cta2} />
     </main>
   )
 }
