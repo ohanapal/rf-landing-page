@@ -1,7 +1,68 @@
 {
+  "hero": {
+    "title": {
+      "text": "Cutting-edge technology solutions",
+      "span": "for tomorrow's challenges"
+    },
+    "description": "We help forward-thinking businesses leverage technology to gain a competitive edge, increase efficiency, and drive growth.",
+    "scheduleBtn": {
+      "text": "Schedule a Consultation",
+      "link": "/contact"
+    },
+    "exploreBtn": {
+      "text": "Explore Services",
+      "link": "/services"
+    },
+    "heroImgUrl": "/images/homepage/hero/hero.jpg"
+  },
   "about": {
     "title": "About Rebel Force",
     "description": "We deliver cutting-edge technology solutions that drive real business results.",
+    "texts": [
+      {
+        "id": 1,
+        "text": [
+          {
+            "type": "span",
+            "content": "Rebel Force"
+          },
+          {
+            "type": "text",
+            "content": "is a leading technology company that transforms how businesses operate in the digital landscape. Since our inception, we've helped over"
+          },
+          {
+            "type": "span",
+            "content": "200+ clients"
+          },
+          {
+            "type": "text",
+            "content": "achieve their strategic goals through innovative technology solutions."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": [
+          {
+            "type": "text",
+            "content": "Our team combines creative thinking with technical expertise to deliver solutions that are not just functional but transformative. We don't just build technology; we build"
+          },
+          {
+            "type": "span",
+            "content": "competitive advantages."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": [
+          {
+            "type": "text",
+            "content": "Whether you're looking to optimize operations, enhance customer experiences, or disrupt your industry, we have the expertise and experience to help you succeed."
+          }
+        ]
+      }
+    ],
     "cardItems": [
       {
         "id": 1,
@@ -27,10 +88,17 @@
         "description": "24/7 dedicated support with 15-minute response time",
         "icon": "lucide:globe"
       }
-    ]
+    ],
+    "learnMoreBtn": {
+      "text": "Learn More",
+      "link": "/about"
+    }
   },
   "services": {
-    "title": "Our Services",
+    "title": {
+      "text": "Our",
+      "span": "Services"
+    },
     "description": "We offer a wide range of technology solutions to help your business thrive in the digital galaxy.",
     "tabs": [
       {
@@ -136,5 +204,13 @@
         }
       }
     ]
+  },
+  "cta": {
+    "title": "Ready to Transform Your Business?",
+    "description": "Our expert team can help you implement cutting-edge technology solutions that drive real results.",
+    "getStartedBtn": {
+      "text": "Get Started",
+      "link": "/contact"
+    }
   }
 }

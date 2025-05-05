@@ -1,24 +1,28 @@
-import dashboardImg from '@/assets/images/homepage/hero/hero.jpg'
 import { BackgroundBeamsWithCollision } from '@/components/ui/background-beams-with-collision'
 import { Button } from '@/components/ui/button'
+import data from '@/data/homepage.json'
 import Image from 'next/image'
+import Link from 'next/link'
 import Stripes from './Stripes'
 
 export default function Hero() {
+  const { hero } = data
   return (
     <section className='min-h-screen bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 relative overflow-hidden'>
       <Stripes />
       <div className='relative z-10'>
         <BackgroundBeamsWithCollision>
-          <div className='flex flex-col items-center justify-center h-full max-w-3xl mx-auto text-center text-balance gap-8'>
-            <h1 className='text-neutral-100 text-7xl font-semibold'>Deploy your website in seconds, not hours.</h1>
-            <p className='text-neutral-100 font-medium'>
-              With our state of the art, cutting edge, we are so back kinda hosting services, you can deploy your
-              website in seconds.
-            </p>
+          <div className='flex flex-col items-center justify-center h-full max-w-4xl mx-auto text-center gap-8'>
+            <h1 className='text-neutral-100 text-7xl font-semibold'>{hero.title.text}</h1>
+            <h1 className='text-primary text-7xl font-semibold'>{hero.title.span}</h1>
+            <p className='text-neutral-100 font-medium'>{hero.description}</p>
             <div className='flex items-center justify-center gap-5'>
-              <Button>Get Started</Button>
-              <Button variant='outline'>Learn More</Button>
+              <Link href={hero.scheduleBtn.link}>
+                <Button>{hero.scheduleBtn.text}</Button>
+              </Link>
+              <Link href={hero.exploreBtn.link}>
+                <Button variant='outline'>{hero.exploreBtn.text}</Button>
+              </Link>
             </div>
           </div>
         </BackgroundBeamsWithCollision>
@@ -28,7 +32,13 @@ export default function Hero() {
               <div className='w-full h-full bg-gray-600 rounded-2xl p-2'>
                 <div className='w-full h-full bg-gray-700 rounded-xl p-2'>
                   <div className='w-full h-full bg-gray-800 rounded-lg p-2'>
-                    <Image src={dashboardImg} alt='dashboard' className='w-full h-full object-cover rounded-md' />
+                    <Image
+                      src={hero.heroImgUrl}
+                      width={1400}
+                      height={1200}
+                      alt='dashboard'
+                      className='w-full h-full object-cover rounded-md'
+                    />
                   </div>
                 </div>
               </div>

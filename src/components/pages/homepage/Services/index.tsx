@@ -1,5 +1,5 @@
-import ServicesTabs from './ServicesTabs'
 import data from '@/data/homepage.json'
+import ServicesTabs from './ServicesTabs'
 
 export default function Services() {
   const { services } = data
@@ -8,11 +8,9 @@ export default function Services() {
       <div className='container'>
         <div className='max-2xl mx-auto text-center text-balance space-y-4 mb-16'>
           <h2 className='text-3xl font-bold'>
-            Our <span className='text-primary'>Services</span>
+            {services.title.text} <span className='text-primary'>{services.title.span}</span>
           </h2>
-          <p className='text-muted-foreground text-xl'>
-            We offer a wide range of technology solutions to help your business thrive in the digital galaxy.
-          </p>
+          <p className='text-muted-foreground text-xl'>{services.description}</p>
         </div>
         <ServicesTabs tabs={services.tabs} />
       </div>
