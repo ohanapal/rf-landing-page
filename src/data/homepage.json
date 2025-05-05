@@ -535,5 +535,47 @@
         ]
       }
     ]
+  },
+  "testimonials": {
+    "title": {
+      "text": "Client",
+      "span": "Success Stories"
+    },
+    "description": "See how we've helped businesses like yours achieve measurable results.",
+    "testimonials": [
+      {
+        "id": 1,
+        "starCount": 5,
+        "text": "Rebel Force delivered a solution that increased our operational efficiency by 47% and reduced costs by 31% in just three months.",
+        "credits": "47% efficiency increase",
+        "author": {
+          "name": "Mon Monthma",
+          "title": "Alliance Industries",
+          "imageUrl": "/images/homepage/testimonials/placeholder.png"
+        }
+      },
+      {
+        "id": 2,
+        "starCount": 5,
+        "text": "Rebel Force delivered a solution that increased our operational efficiency by 47% and reduced costs by 31% in just three months.",
+        "credits": "47% efficiency increase",
+        "author": {
+          "name": "Mon Monthma",
+          "title": "Alliance Industries",
+          "imageUrl": "/images/homepage/testimonials/placeholder.png"
+        }
+      },
+      {
+        "id": 3,
+        "starCount": 5,
+        "text": "Rebel Force delivered a solution that increased our operational efficiency by 47% and reduced costs by 31% in just three months.",
+        "credits": "47% efficiency increase",
+        "author": {
+          "name": "Mon Monthma",
+          "title": "Alliance Industries",
+          "imageUrl": "/images/homepage/testimonials/placeholder.png"
+        }
+      }
+    ]
   }
 }
