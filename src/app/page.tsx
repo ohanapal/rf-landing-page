@@ -2,6 +2,7 @@ import About from '@/components/pages/homepage/About'
 import CTA from '@/components/pages/homepage/CTA'
 import Hero from '@/components/pages/homepage/Hero'
 import Projects from '@/components/pages/homepage/Projects'
+import RebelAdvantage from '@/components/pages/homepage/RebelAdvantage'
 import Services from '@/components/pages/homepage/Services'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <CTA />
       <Projects />
+      <RebelAdvantage />
     </main>
   )
 }

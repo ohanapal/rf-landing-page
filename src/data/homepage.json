@@ -16,7 +16,10 @@
     "heroImgUrl": "/images/homepage/hero/hero.jpg"
   },
   "about": {
-    "title": "About Rebel Force",
+    "title": {
+      "text": "About",
+      "span": "Rebel Force"
+    },
     "description": "We deliver cutting-edge technology solutions that drive real business results.",
     "texts": [
       {
@@ -106,7 +109,7 @@
         "title": "CMS Solutions",
         "icon": "lucide:database",
         "content": {
-          "img": "/images/homepage/services/placeholder.jpg",
+          "img": "/images/homepage/services/placeholder.png",
           "title": "CMS Solutions",
           "description": "We offer comprehensive CMS solutions that streamline digital content management, utilizing platforms like WordPress, Shopify, Magento, and OpenCart.",
           "listItems": [
@@ -123,7 +126,7 @@
         "title": "Platforms",
         "icon": "lucide:globe",
         "content": {
-          "img": "/images/homepage/services/placeholder.jpg",
+          "img": "/images/homepage/services/placeholder.png",
           "title": "Platforms",
           "description": "We offer mobile and web platforms that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -140,7 +143,7 @@
         "title": "User Experience",
         "icon": "lucide:layers",
         "content": {
-          "img": "/images/homepage/services/placeholder.jpg",
+          "img": "/images/homepage/services/placeholder.png",
           "title": "User Experience",
           "description": "We offer user interfaces and user experiences that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -157,7 +160,7 @@
         "title": "Infrastructure",
         "icon": "lucide:cpu",
         "content": {
-          "img": "/images/homepage/services/placeholder.jpg",
+          "img": "/images/homepage/services/placeholder.png",
           "title": "Infrastructure",
           "description": "We offer infrastructure solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -174,7 +177,7 @@
         "title": "CAD/CAM",
         "icon": "lucide:code",
         "content": {
-          "img": "/images/homepage/services/placeholder.jpg",
+          "img": "/images/homepage/services/placeholder.png",
           "title": "CAD/CAM",
           "description": "We offer CAD/CAM solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -191,7 +194,7 @@
         "title": "AI & ML",
         "icon": "lucide:sparkles",
         "content": {
-          "img": "/images/homepage/services/placeholder.jpg",
+          "img": "/images/homepage/services/placeholder.png",
           "title": "AI & ML",
           "description": "We offer AI and ML solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -285,5 +288,46 @@
       "text": "View All",
       "link": "/projects"
     }
+  },
+  "rebelAdvantage": {
+    "title": [
+      {
+        "type": "text",
+        "content": "The"
+      },
+      {
+        "type": "span",
+        "content": "Rebel"
+      },
+      {
+        "type": "text",
+        "content": "Advantage"
+      }
+    ],
+    "description": "What sets us apart from the Imperial competition and makes us the right choice for your technology needs.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Innovation",
+        "description": "Cutting-edge solutions that keep you ahead of competitors"
+      },
+      {
+        "id": 2,
+        "title": "Expert Team",
+        "description": "Our team consists of the best talent from across the galaxy, bringing diverse perspectives and expertise to every project."
+      },
+
+      {
+        "id": 3,
+        "title": "Creative Approach",
+        "description": "We think outside the box, approaching each challenge with creativity and fresh ideas to deliver unique solutions."
+      },
+      {
+        "id": 4,
+        "title": "Reliable Support",
+        "description": "We stand behind our work, providing ongoing support and maintenance to ensure your technology continues to perform at its best."
+      }
+    ],
+    "imageUrl": "/images/homepage/projects/placeholder.jpg"
   }
 }

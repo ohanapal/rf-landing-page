@@ -1,8 +1,8 @@
 import { MagicCard } from '@/components/magicui/magic-card'
 import { Button } from '@/components/ui/button'
 import data from '@/data/homepage.json'
-import AboutCardItem from './AboutCardItem'
 import Link from 'next/link'
+import AboutCardItem from './AboutCardItem'
 
 export default function About() {
   const { about } = data
@@ -10,7 +10,7 @@ export default function About() {
     <section className='container py-24'>
       <div className='max-2xl mx-auto text-center text-balance space-y-4 mb-16'>
         <h2 className='text-4xl font-bold'>
-          About <span className='text-primary'>{about.title}</span>
+          {about.title.text} <span className='text-primary'>{about.title.span}</span>
         </h2>
         <p className='text-muted-foreground text-xl'>{about.description}</p>
       </div>
@@ -21,7 +21,8 @@ export default function About() {
             <p className='text-muted-foreground text-lg' key={txt.id}>
               {txt.text.map((t, i) => (
                 <span key={i}>
-                  {t.type === 'text' ? t.content : <span className='text-primary'>{`${t.content} `}</span>}
+                  {t.type === 'text' ? t.content : <span className='text-primary'>{t.content}</span>}
+                  {i !== txt.text.length - 1 && ' '}
                 </span>
               ))}
             </p>
