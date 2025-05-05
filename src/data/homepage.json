@@ -106,7 +106,7 @@
         "title": "CMS Solutions",
         "icon": "lucide:database",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
+          "img": "/images/homepage/services/placeholder.jpg",
           "title": "CMS Solutions",
           "description": "We offer comprehensive CMS solutions that streamline digital content management, utilizing platforms like WordPress, Shopify, Magento, and OpenCart.",
           "listItems": [
@@ -123,7 +123,7 @@
         "title": "Platforms",
         "icon": "lucide:globe",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
+          "img": "/images/homepage/services/placeholder.jpg",
           "title": "Platforms",
           "description": "We offer mobile and web platforms that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -140,7 +140,7 @@
         "title": "User Experience",
         "icon": "lucide:layers",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
+          "img": "/images/homepage/services/placeholder.jpg",
           "title": "User Experience",
           "description": "We offer user interfaces and user experiences that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -157,7 +157,7 @@
         "title": "Infrastructure",
         "icon": "lucide:cpu",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
+          "img": "/images/homepage/services/placeholder.jpg",
           "title": "Infrastructure",
           "description": "We offer infrastructure solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -174,7 +174,7 @@
         "title": "CAD/CAM",
         "icon": "lucide:code",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
+          "img": "/images/homepage/services/placeholder.jpg",
           "title": "CAD/CAM",
           "description": "We offer CAD/CAM solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -191,7 +191,7 @@
         "title": "AI & ML",
         "icon": "lucide:sparkles",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
+          "img": "/images/homepage/services/placeholder.jpg",
           "title": "AI & ML",
           "description": "We offer AI and ML solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -211,6 +211,79 @@
     "getStartedBtn": {
       "text": "Get Started",
       "link": "/contact"
+    }
+  },
+  "projects": {
+    "title": {
+      "text": "Our",
+      "span": "Projects"
+    },
+    "description": "Explore our portfolio of successful rojects across various technologies and industries.",
+    "projects": [
+      {
+        "id": 1,
+        "tags": ["UI/UX", "Dashboard", "Analytics"],
+        "category": "Web",
+        "pinned": true,
+        "images": ["/images/homepage/projects/placeholder.jpg", "/images/homepage/projects/placeholder.jpg"],
+        "title": "Imperial Dashboard Redesign",
+        "description": "A complete overhaul of the fleet management dashboard with improved UX and real-time analytics.",
+        "link": "/projects/imperial-dashboard-redesign"
+      },
+      {
+        "id": 2,
+        "tags": ["Mobile", "E-commerce", "Payment"],
+        "category": "App",
+        "pinned": false,
+        "images": ["/images/homepage/projects/placeholder.jpg", "/images/homepage/projects/placeholder.jpg"],
+        "title": "Galactic Payment Gateway",
+        "description": "Developed a secure payment processing system for intergalactic transactions.",
+        "link": "/projects/galactic-payment"
+      },
+      {
+        "id": 3,
+        "tags": ["AI", "Chatbot", "Support"],
+        "category": "AI",
+        "pinned": true,
+        "images": ["/images/homepage/projects/placeholder.jpg", "/images/homepage/projects/placeholder.jpg"],
+        "title": "Nebula AI Assistant",
+        "description": "Created an intelligent virtual assistant for customer support across multiple planets.",
+        "link": "/projects/nebula-ai"
+      },
+      {
+        "id": 4,
+        "tags": ["Cloud", "Storage", "Security"],
+        "category": "Infra",
+        "pinned": false,
+        "images": ["/images/homepage/projects/placeholder.jpg", "/images/homepage/projects/placeholder.jpg"],
+        "title": "Quantum Cloud Storage",
+        "description": "Built a quantum-resistant cloud storage solution for sensitive interplanetary data.",
+        "link": "/projects/quantum-cloud"
+      },
+      {
+        "id": 5,
+        "tags": ["AR", "Navigation", "Maps"],
+        "category": "AR/VR",
+        "pinned": true,
+        "images": ["/images/homepage/projects/placeholder.jpg", "/images/homepage/projects/placeholder.jpg"],
+        "title": "Stellar AR Navigator",
+        "description": "Developed an augmented reality navigation system for space exploration vessels.",
+        "link": "/projects/stellar-ar"
+      },
+      {
+        "id": 6,
+        "tags": ["IoT", "Automation", "Energy"],
+        "category": "IoT",
+        "pinned": false,
+        "images": ["/images/homepage/projects/placeholder.jpg", "/images/homepage/projects/placeholder.jpg"],
+        "title": "Solar Grid Optimizer",
+        "description": "Created an IoT-based energy management system for planetary solar grids.",
+        "link": "/projects/solar-grid"
+      }
+    ],
+    "viewAllBtn": {
+      "text": "View All",
+      "link": "/projects"
     }
   }
 }

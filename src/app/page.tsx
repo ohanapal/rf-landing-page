@@ -1,6 +1,7 @@
 import About from '@/components/pages/homepage/About'
 import CTA from '@/components/pages/homepage/CTA'
 import Hero from '@/components/pages/homepage/Hero'
+import Projects from '@/components/pages/homepage/Projects'
 import Services from '@/components/pages/homepage/Services'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Services />
       <CTA />
+      <Projects />
     </main>
   )
 }

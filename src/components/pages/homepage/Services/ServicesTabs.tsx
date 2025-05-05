@@ -30,7 +30,7 @@ export default function ServicesTabs({ tabs }: Props) {
             <TabsTrigger
               key={tab.id}
               value={`tab-${tab.id}`}
-              className='relative w-full justify-start rounded-none after:absolute after:inset-y-0 after:start-0 after:w-0.5 data-[state=active]:bg-[#111827] data-[state=active]:shadow-none data-[state=active]:after:bg-primary cursor-pointer text-sm font-medium h-11'
+              className='relative w-full justify-start rounded-none after:absolute after:inset-y-0 after:start-0 after:w-0.5 data-[state=active]:bg-tartiary data-[state=active]:shadow-none data-[state=active]:after:bg-primary cursor-pointer text-sm font-medium h-11'
             >
               <Icon className='size-5 mr-3' />
               {tab.title}
@@ -38,7 +38,7 @@ export default function ServicesTabs({ tabs }: Props) {
           )
         })}
       </TabsList>
-      <div className='grow rounded-lg border border-border text-start bg-[#111827] p-4'>
+      <div className='grow rounded-lg border border-border text-start bg-tartiary p-4'>
         {tabs.map((tab) => (
           <ServiceTabContent key={tab.id} tab={tab} />
         ))}
