@@ -7,7 +7,7 @@ export default function RebelAdvantage() {
   return (
     <section className='pb-24 pt-16 container'>
       <div className='max-w-3xl mx-auto text-center space-y-4 mb-16'>
-        <h2 className='text-3xl font-bold'>
+        <h2 className='text-2xl md:text-3xl font-bold'>
           {rebelAdvantage.title.map((title, i) => (
             <span key={title.content}>
               {title.type === 'text' ? title.content : <span className='text-primary'>{title.content}</span>}{' '}

@@ -7,7 +7,7 @@ export default function Team() {
     <section className='py-24 bg-secondary-background'>
       <div className='container'>
         <div className='max-w-3xl mx-auto text-center space-y-4 mb-16'>
-          <h2 className='text-3xl font-bold'>
+          <h2 className='text-2xl md:text-3xl font-bold'>
             {team.title.text} <span className='text-primary'>{team.title.span}</span>
           </h2>
           <p className='text-muted-foreground text-xl'>{team.description}</p>

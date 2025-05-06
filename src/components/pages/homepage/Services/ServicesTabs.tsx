@@ -22,7 +22,11 @@ interface Props {
 
 export default function ServicesTabs({ tabs }: Props) {
   return (
-    <Tabs defaultValue='tab-1' orientation='vertical' className='flex w-full max-w-4xl mx-auto gap-5'>
+    <Tabs
+      defaultValue='tab-1'
+      orientation='vertical'
+      className='flex flex-col md:flex-row w-full max-w-4xl mx-auto gap-5'
+    >
       <TabsList className='flex-col rounded-none bg-transparent p-0'>
         {tabs.map((tab) => {
           const Icon = getLucideIcon(tab.icon)

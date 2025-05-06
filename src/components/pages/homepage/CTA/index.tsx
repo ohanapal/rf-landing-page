@@ -27,7 +27,7 @@ export default function CTA({ cta }: Props) {
         })}
       >
         <div className='max-w-2xl mx-auto text-center space-y-4'>
-          <h2 className='text-3xl font-bold text-center'>{cta.title}</h2>
+          <h2 className='text-2xl md:text-3xl font-bold text-center'>{cta.title}</h2>
           <p className='text-muted-foreground'>{cta.description}</p>
         </div>
         <div className='flex flex-wrap items-center justify-center gap-4'>

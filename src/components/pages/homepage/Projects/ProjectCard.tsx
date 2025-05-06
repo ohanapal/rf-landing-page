@@ -20,8 +20,8 @@ export default function ProjectCard({ project }: Props) {
     <div className='rounded-md bg-tartiary overflow-hidden flex flex-col h-full'>
       <Image
         src={project.images[0]}
-        width={300}
-        height={300}
+        width={600}
+        height={400}
         alt={project.title}
         className='object-cover aspect-video'
       />

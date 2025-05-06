@@ -4,15 +4,15 @@ import Image from 'next/image'
 import { ServiceTab } from './ServicesTabs'
 export default function ServiceTabContent({ tab }: { tab: ServiceTab }) {
   return (
-    <TabsContent key={tab.id} value={`tab-${tab.id}`} className='flex gap-5 mt-0'>
+    <TabsContent key={tab.id} value={`tab-${tab.id}`} className='flex flex-col sm:flex-row gap-5 mt-0'>
       <Image
         src={tab.content.img}
         alt={tab.title}
         width={300}
         height={600}
-        className='h-full w-1/3 max-w-[300px] aspect-[3/4] object-cover rounded-md'
+        className='h-full w-full sm:w-1/3 max-w-full sm:max-w-[300px] aspect-[3/4] object-cover rounded-md'
       />
-      <div className='flex flex-col gap-4 w-2/3'>
+      <div className='flex flex-col gap-4 w-full sm:w-2/3'>
         <h3 className='text-2xl font-bold'>{tab.title}</h3>
         <p className='text-muted-foreground'>{tab.content.description}</p>
         <ul className='space-y-2'>

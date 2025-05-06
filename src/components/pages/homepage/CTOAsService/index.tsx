@@ -17,7 +17,7 @@ export default function CTOAsService() {
 
       <div className='grid grid-cols-2 gap-x-20 gap-y-5'>
         <div className='space-y-6'>
-          <h3 className='text-3xl font-bold'>{ctoAsService.leftContent.title}</h3>
+          <h3 className='text-2xl md:text-3xl font-bold'>{ctoAsService.leftContent.title}</h3>
           <p className='text-muted-foreground text-lg'>{ctoAsService.leftContent.description}</p>
 
           <div className='space-y-5'>
