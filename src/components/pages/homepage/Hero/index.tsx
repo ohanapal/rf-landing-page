@@ -1,6 +1,8 @@
+'use client'
+import { RainbowButton } from '@/components/magicui/rainbow-button'
 import { BackgroundBeamsWithCollision } from '@/components/ui/background-beams-with-collision'
-import { Button } from '@/components/ui/button'
 import data from '@/data/homepage.json'
+import { motion } from 'motion/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Stripes from './Stripes'
@@ -12,21 +14,82 @@ export default function Hero() {
       <Stripes />
       <div className='relative z-10'>
         <BackgroundBeamsWithCollision>
-          <div className='flex flex-col items-center justify-center h-full max-w-4xl mx-auto text-center'>
-            <h1 className='text-neutral-100 text-4xl md:text-5xl lg:text-7xl font-semibold'>{hero.title.text}</h1>
-            <h1 className='text-primary text-4xl md:text-5xl lg:text-7xl font-semibold'>{hero.title.span}</h1>
-            <p className='text-neutral-100 font-medium py-8'>{hero.description}</p>
-            <div className='flex flex-wrap items-center justify-center gap-5'>
+          <motion.div
+            className='flex flex-col items-center justify-center h-full max-w-4xl mx-auto text-center'
+            initial={{ filter: 'blur(10px)', opacity: 0 }}
+            whileInView={{ filter: 'blur(0px)', opacity: 1 }}
+            transition={{
+              duration: 0.6,
+              ease: 'easeOut',
+            }}
+          >
+            <motion.h1
+              className='text-neutral-100 text-4xl md:text-5xl lg:text-7xl font-semibold'
+              initial={{ opacity: 0.0, y: 40, filter: 'blur(4px)' }}
+              whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{
+                delay: 0.2,
+                duration: 0.6,
+                ease: 'easeInOut',
+              }}
+            >
+              {hero.title.text}
+            </motion.h1>
+            <motion.h1
+              className='text-primary text-4xl md:text-5xl lg:text-7xl font-semibold'
+              initial={{ opacity: 0.0, y: 40, filter: 'blur(4px)' }}
+              whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{
+                delay: 0.4,
+                duration: 0.6,
+                ease: 'easeInOut',
+              }}
+            >
+              {hero.title.span}
+            </motion.h1>
+            <motion.p
+              className='text-neutral-100 font-medium py-8'
+              initial={{ opacity: 0.0, y: 30, filter: 'blur(4px)' }}
+              whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{
+                delay: 0.6,
+                duration: 0.6,
+                ease: 'easeInOut',
+              }}
+            >
+              {hero.description}
+            </motion.p>
+            <motion.div
+              className='flex flex-wrap items-center justify-center gap-5'
+              initial={{ opacity: 0.0, y: 30, filter: 'blur(4px)' }}
+              whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+              transition={{
+                delay: 0.8,
+                duration: 0.6,
+                ease: 'easeInOut',
+              }}
+            >
               <Link href={hero.scheduleBtn.link}>
-                <Button>{hero.scheduleBtn.text}</Button>
+                <RainbowButton variant='custom' className='bg-primary text-white'>
+                  {hero.scheduleBtn.text}
+                </RainbowButton>
               </Link>
               <Link href={hero.exploreBtn.link}>
-                <Button variant='outline'>{hero.exploreBtn.text}</Button>
+                <RainbowButton>{hero.exploreBtn.text}</RainbowButton>
               </Link>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
         </BackgroundBeamsWithCollision>
-        <div className='pb-32'>
+        <motion.div
+          className='pb-32'
+          initial={{ opacity: 0, y: 60, filter: 'blur(3px)' }}
+          whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+          transition={{
+            delay: 1.0,
+            duration: 1.2,
+            ease: 'easeInOut',
+          }}
+        >
           <div className='max-w-7xl mx-auto bg-gray-400 rounded-[12px] sm:rounded-[14px] md:rounded-[16px] border-2 p-0.5 sm:p-1 md:p-2'>
             <div className='w-full h-full bg-gray-500 rounded-[10px] sm:rounded-[12px] md:rounded-[14px] p-0.5 sm:p-1 md:p-2'>
               <div className='w-full h-full bg-gray-600 rounded-[8px] sm:rounded-[10px] md:rounded-[12px] p-0.5 sm:p-1 md:p-2'>
@@ -44,7 +107,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </header>
   )
