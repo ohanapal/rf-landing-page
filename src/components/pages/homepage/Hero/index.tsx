@@ -8,7 +8,7 @@ import Stripes from './Stripes'
 export default function Hero() {
   const { hero } = data
   return (
-    <header className='min-h-screen bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 relative overflow-hidden px-4'>
+    <header className='min-h-screen bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-950 dark:to-neutral-800 relative overflow-hidden px-4 pt-12'>
       <Stripes />
       <div className='relative z-10'>
         <BackgroundBeamsWithCollision>

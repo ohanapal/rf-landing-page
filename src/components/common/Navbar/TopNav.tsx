@@ -1,14 +1,17 @@
 'use client'
-
-import Link from 'next/link'
-import { useEffect, useState } from 'react'
-
 import logoDark from '@/assets/logo/logo-dark.png'
+import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
+import { AlignRight } from 'lucide-react'
 import Image from 'next/image'
-import { Button } from '../ui/button'
+import Link from 'next/link'
+import { Dispatch, SetStateAction, useEffect, useState } from 'react'
 
-export default function Navbar() {
+interface Props {
+  setIsOpen: Dispatch<SetStateAction<boolean>>
+}
+
+export default function TopNav({ setIsOpen }: Props) {
   const [isScrolled, setIsScrolled] = useState(false)
 
   useEffect(() => {
@@ -24,18 +27,17 @@ export default function Navbar() {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
-
   return (
     <nav
       className={cn('fixed top-0 left-0 right-0 z-50 h-16 transition-all duration-500 delay-100', {
-        'top-5': isScrolled,
+        'top-5 left-2 right-2': isScrolled,
       })}
     >
       <div
         className={cn(
-          'container flex items-center justify-between h-full py-2 w-full transition-all duration-500 backdrop-blur-lg rounded-none px-0 delay-100',
+          'container flex items-center justify-between h-full py-2 w-full transition-all duration-500 rounded-none delay-100',
           {
-            'bg-neutral-300/20 max-w-3xl rounded-full px-5': isScrolled,
+            'bg-neutral-800/40 max-w-3xl rounded-full px-5 backdrop-blur-xl': isScrolled,
           },
         )}
       >
@@ -43,7 +45,7 @@ export default function Navbar() {
           <Image src={logoDark} alt='logo' className='w-auto h-full' />
         </Link>
 
-        <ul className='flex items-center gap-4'>
+        <ul className='hidden items-center gap-4 md:flex'>
           <li>
             <Link href='/'>Home</Link>
           </li>
@@ -56,8 +58,12 @@ export default function Navbar() {
         </ul>
 
         <div className='flex items-center gap-4'>
-          <Button variant='outline'>Login</Button>
-          <Button>Sign Up</Button>
+          <div className='hidden md:flex items-center gap-4'>
+            <Button variant='outline'>Login</Button>
+            <Button>Sign Up</Button>
+          </div>
+
+          <AlignRight className='w-6 h-6 md:hidden cursor-pointer' onClick={() => setIsOpen(true)} />
         </div>
       </div>
     </nav>
