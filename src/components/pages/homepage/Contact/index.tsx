@@ -1,4 +1,5 @@
 'use client'
+import { BorderBeam } from '@/components/magicui/border-beam'
 import { Button } from '@/components/ui/button'
 import data from '@/data/homepage.json'
 import { ChangeEvent, useState } from 'react'
@@ -30,7 +31,7 @@ export default function Contact() {
       <Heading title={contact.title as HeadingTitle[]} description={contact.description} />
 
       <form
-        className='max-w-2xl mx-auto p-4 sm:p-6 bg-[#0d0d0d] rounded-md border border-border'
+        className='max-w-2xl mx-auto p-4 sm:p-6 bg-[#0d0d0d] rounded-md border border-border relative'
         onSubmit={handleSubmit}
       >
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
@@ -65,6 +66,8 @@ export default function Contact() {
         <Button type='submit' className='w-full mt-6'>
           Send Message
         </Button>
+
+        <BorderBeam duration={8} size={100} />
       </form>
     </section>
   )

@@ -1,3 +1,4 @@
+import { BorderBeam } from '@/components/magicui/border-beam'
 import Image from 'next/image'
 import { getLucideIcon } from '../About/utils'
 
@@ -18,7 +19,7 @@ interface Props {
 }
 export default function TeamMember({ member }: Props) {
   return (
-    <div className='rounded-md overflow-hidden border border-white/5 bg-[#111827]'>
+    <div className='rounded-md overflow-hidden border border-white/5 bg-[#111827] relative'>
       <Image
         src={member.imageUrl}
         alt={member.name}
@@ -35,12 +36,18 @@ export default function TeamMember({ member }: Props) {
             const Icon = getLucideIcon(social.icon)
             return (
               <a href={social.url} target='_blank' rel='noopener noreferrer' key={social.id}>
-                <Icon className='size-5 text-muted-foreground' strokeWidth={1.5} />
+                <Icon
+                  className='size-5 text-muted-foreground hover:rotate-y-360 transition-all duration-300'
+                  strokeWidth={1.5}
+                />
               </a>
             )
           })}
         </div>
       </div>
+
+      <BorderBeam duration={6} size={400} className='from-transparent via-red-500 to-transparent' />
+      <BorderBeam duration={6} delay={3} size={400} className='from-transparent via-blue-500 to-transparent' />
     </div>
   )
 }
