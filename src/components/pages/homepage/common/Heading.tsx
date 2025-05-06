@@ -1,3 +1,5 @@
+import { AuroraText } from '@/components/magicui/aurora-text'
+
 export interface HeadingTitle {
   type: 'text' | 'span'
   content: string
@@ -14,7 +16,7 @@ export default function Heading({ title, description }: Props) {
       <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold'>
         {title.map((t, i) => (
           <span key={t.content}>
-            {t.type === 'text' ? t.content : <span className='text-primary'>{t.content}</span>}
+            {t.type === 'text' ? t.content : <AuroraText>{t.content}</AuroraText>}
             {i !== title.length - 1 && ' '}
           </span>
         ))}
