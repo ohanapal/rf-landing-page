@@ -22,7 +22,7 @@ export default function CTA({ cta }: Props) {
   return (
     <section className='py-20 px-4'>
       <div
-        className={cn('container py-15 bg-[#0e1420] rounded-lg shadow-sm space-y-6', {
+        className={cn('container py-12 sm:py-16 bg-[#0e1420] rounded-lg shadow-sm space-y-6', {
           'bg-gradient-to-r from-[#2563EB33] via-[#9333EA33] to-[#DC262633]': cta?.isGradientBg,
         })}
       >

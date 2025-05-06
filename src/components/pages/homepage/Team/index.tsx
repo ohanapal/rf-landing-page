@@ -12,7 +12,7 @@ export default function Team() {
           </h2>
           <p className='text-muted-foreground text-xl'>{team.description}</p>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
+        <div className='grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
           {team.members.map((member) => (
             <TeamMember key={member.id} member={member} />
           ))}

@@ -14,13 +14,15 @@ export default function Testimonials() {
         </h2>
         <p className='text-muted-foreground text-xl'>{testimonials.description}</p>
       </div>
-      <div className='max-w-3xl mx-auto bg-[#0d0d0d] rounded-md p-8'>
+      <div className='max-w-3xl mx-auto bg-[#0d0d0d] rounded-md p-4 sm:p-8'>
         <Carousel infiniteScroll itemsToShow={1}>
           <CarouselContent className='-ml-4'>
             {testimonials.testimonials.map((testimonial) => (
               <CarouselItem key={testimonial.id} className='pl-4'>
                 <div className='flex flex-col items-center justify-center space-y-6 mb-8'>
-                  <p className='bg-[#17253d] rounded-full px-4 py-1.5 text-primary font-bold'>{testimonial.credits}</p>
+                  <p className='bg-[#17253d] rounded-full px-4 py-1.5 text-primary font-semibold text-sm sm:text-base'>
+                    {testimonial.credits}
+                  </p>
 
                   <div className='flex gap-0.5'>
                     {Array.from({ length: testimonial.starCount }).map((_, index) => (
@@ -28,7 +30,7 @@ export default function Testimonials() {
                     ))}
                   </div>
 
-                  <p className='text-2xl text-balance text-center'>{`"${testimonial.text}"`}</p>
+                  <p className='text-lg sm:text-2xl text-balance text-center'>{`"${testimonial.text}"`}</p>
 
                   <div className='flex items-center gap-x-3'>
                     <Image
@@ -36,12 +38,12 @@ export default function Testimonials() {
                       alt={testimonial.author.name}
                       width={48}
                       height={48}
-                      className='size-12 rounded-full border-2 border-primary'
+                      className='size-10 sm:size-12 rounded-full border-2 border-primary'
                     />
 
                     <div className='flex flex-col'>
-                      <p className='text-lg font-bold'>{testimonial.author.name}</p>
-                      <p className='text-primary'>{testimonial.author.title}</p>
+                      <p className='text-base sm:text-lg font-bold'>{testimonial.author.name}</p>
+                      <p className='text-primary text-sm sm:text-base'>{testimonial.author.title}</p>
                     </div>
                   </div>
                 </div>

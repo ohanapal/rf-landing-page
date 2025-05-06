@@ -18,7 +18,7 @@ export default function RebelAdvantage() {
         <p className='text-muted-foreground text-xl mx-auto'>{rebelAdvantage.description}</p>
       </div>
 
-      <div className='grid grid-cols-2 gap-x-20 gap-y-5'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-8 items-center'>
         <Image
           src={rebelAdvantage.imageUrl}
           alt={rebelAdvantage.title[1].content}
