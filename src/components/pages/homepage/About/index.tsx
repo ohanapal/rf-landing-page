@@ -8,7 +8,7 @@ import AboutCardItem from './AboutCardItem'
 export default function About() {
   const { about } = data
   return (
-    <section className='container py-24'>
+    <section className='container py-16 md:py-20 lg:py-24'>
       <Heading title={about.title as HeadingTitle[]} description={about.description} />
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-8 items-center'>
         <div className='space-y-5 order-2 lg:order-1'>

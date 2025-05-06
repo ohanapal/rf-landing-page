@@ -8,7 +8,7 @@ import Heading, { HeadingTitle } from '../common/Heading'
 export default function Testimonials() {
   const { testimonials } = data
   return (
-    <div className='container py-24'>
+    <div className='container py-16 md:py-20 lg:py-24'>
       <Heading title={testimonials.title as HeadingTitle[]} description={testimonials.description} />
       <div className='max-w-3xl mx-auto bg-[#0d0d0d] rounded-md p-4 sm:p-8'>
         <Carousel infiniteScroll itemsToShow={1}>

@@ -5,7 +5,7 @@ import TeamMember from './TeamMember'
 export default function Team() {
   const { team } = data
   return (
-    <section className='py-24 bg-secondary-background'>
+    <section className='py-16 md:py-20 lg:py-24 bg-secondary-background'>
       <div className='container'>
         <Heading title={team.title as HeadingTitle[]} description={team.description} />
         <div className='grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>

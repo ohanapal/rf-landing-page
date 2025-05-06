@@ -8,7 +8,7 @@ import LeftItem from './LeftItem'
 export default function CTOAsService() {
   const { ctoAsService } = data
   return (
-    <section className='container py-24'>
+    <section className='container py-16 md:py-20 lg:py-24'>
       <Heading title={ctoAsService.title as HeadingTitle[]} description={ctoAsService.description} />
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-8 items-center'>
