@@ -1,4 +1,5 @@
 import data from '@/data/homepage.json'
+import Heading, { HeadingTitle } from '../common/Heading'
 import ServicesTabs from './ServicesTabs'
 
 export default function Services() {
@@ -6,12 +7,7 @@ export default function Services() {
   return (
     <section className='py-24 bg-secondary-background'>
       <div className='container'>
-        <div className='max-w-3xl mx-auto text-center space-y-4 mb-16'>
-          <h2 className='text-2xl md:text-3xl font-bold'>
-            {services.title.text} <span className='text-primary'>{services.title.span}</span>
-          </h2>
-          <p className='text-muted-foreground text-xl'>{services.description}</p>
-        </div>
+        <Heading title={services.title as HeadingTitle[]} description={services.description} />
         <ServicesTabs tabs={services.tabs} />
       </div>
     </section>

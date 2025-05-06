@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button'
 import data from '@/data/homepage.json'
 import { ChangeEvent, useState } from 'react'
+import Heading, { HeadingTitle } from '../common/Heading'
 import InputGroup from './InputGroup'
 
 export default function Contact() {
@@ -26,12 +27,7 @@ export default function Contact() {
 
   return (
     <section className='container py-24'>
-      <div className='max-w-3xl mx-auto text-center space-y-4 mb-16'>
-        <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold'>
-          {contact.title.text} <span className='text-primary'>{contact.title.span}</span>
-        </h2>
-        <p className='text-muted-foreground text-xl'>{contact.description}</p>
-      </div>
+      <Heading title={contact.title as HeadingTitle[]} description={contact.description} />
 
       <form
         className='max-w-2xl mx-auto p-4 sm:p-6 bg-[#0d0d0d] rounded-md border border-border'

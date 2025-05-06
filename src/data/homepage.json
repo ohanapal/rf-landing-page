@@ -16,10 +16,16 @@
     "heroImgUrl": "/images/homepage/hero/hero.jpg"
   },
   "about": {
-    "title": {
-      "text": "About",
-      "span": "Rebel Force"
-    },
+    "title": [
+      {
+        "type": "text",
+        "content": "About"
+      },
+      {
+        "type": "span",
+        "content": "Rebel Force"
+      }
+    ],
     "description": "We deliver cutting-edge technology solutions that drive real business results.",
     "texts": [
       {
@@ -98,10 +104,16 @@
     }
   },
   "services": {
-    "title": {
-      "text": "Our",
-      "span": "Services"
-    },
+    "title": [
+      {
+        "type": "text",
+        "content": "Our"
+      },
+      {
+        "type": "span",
+        "content": "Services"
+      }
+    ],
     "description": "We offer a wide range of technology solutions to help your business thrive in the digital galaxy.",
     "tabs": [
       {
@@ -221,10 +233,16 @@
     }
   },
   "projects": {
-    "title": {
-      "text": "Our",
-      "span": "Projects"
-    },
+    "title": [
+      {
+        "type": "text",
+        "content": "Our"
+      },
+      {
+        "type": "span",
+        "content": "Projects"
+      }
+    ],
     "description": "Explore our portfolio of successful rojects across various technologies and industries.",
     "projects": [
       {
@@ -335,10 +353,16 @@
     "imageUrl": "/images/homepage/projects/placeholder.jpg"
   },
   "ctoAsService": {
-    "title": {
-      "text": "CTO",
-      "span": "as a Service"
-    },
+    "title": [
+      {
+        "type": "text",
+        "content": "CTO"
+      },
+      {
+        "type": "span",
+        "content": "as a Service"
+      }
+    ],
     "description": "Hire the Rebel Force team as your strategic technology partner and gain access to elite tech leadership without the overhead.",
     "leftContent": {
       "title": "Your Elite Tech Command",
@@ -420,10 +444,16 @@
     }
   },
   "team": {
-    "title": {
-      "text": "Our",
-      "span": "Team"
-    },
+    "title": [
+      {
+        "type": "text",
+        "content": "Our"
+      },
+      {
+        "type": "span",
+        "content": "Team"
+      }
+    ],
     "description": "Meet the rebels behind our success, a diverse team of experts dedicated to delivering excellence.",
     "members": [
       {
@@ -537,10 +567,16 @@
     ]
   },
   "testimonials": {
-    "title": {
-      "text": "Client",
-      "span": "Success Stories"
-    },
+    "title": [
+      {
+        "type": "text",
+        "content": "Client"
+      },
+      {
+        "type": "span",
+        "content": "Success Stories"
+      }
+    ],
     "description": "See how we've helped businesses like yours achieve measurable results.",
     "testimonials": [
       {
@@ -579,10 +615,16 @@
     ]
   },
   "contact": {
-    "title": {
-      "text": "Contact",
-      "span": "Us"
-    },
+    "title": [
+      {
+        "type": "text",
+        "content": "Contact"
+      },
+      {
+        "type": "span",
+        "content": "Us"
+      }
+    ],
     "description": "Ready to transform your business with cutting-edge technology? Get in touch for a free consultation."
   },
   "cta3": {

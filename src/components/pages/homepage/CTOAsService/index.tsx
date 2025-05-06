@@ -2,18 +2,14 @@ import { GlowingEffect } from '@/components/ui/glowing-effect'
 import data from '@/data/homepage.json'
 import { CircleCheck } from 'lucide-react'
 import Image from 'next/image'
+import Heading, { HeadingTitle } from '../common/Heading'
 import LeftItem from './LeftItem'
 
 export default function CTOAsService() {
   const { ctoAsService } = data
   return (
     <section className='container py-24'>
-      <div className='max-w-3xl mx-auto text-center space-y-4 mb-16'>
-        <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold'>
-          {ctoAsService.title.text} <span className='text-primary'>{ctoAsService.title.span}</span>
-        </h2>
-        <p className='text-muted-foreground text-xl'>{ctoAsService.description}</p>
-      </div>
+      <Heading title={ctoAsService.title as HeadingTitle[]} description={ctoAsService.description} />
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-8 items-center'>
         <div className='space-y-6'>

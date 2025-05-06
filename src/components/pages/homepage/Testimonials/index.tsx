@@ -3,17 +3,13 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNavigation } from '@/c
 import data from '@/data/homepage.json'
 import { Star } from 'lucide-react'
 import Image from 'next/image'
+import Heading, { HeadingTitle } from '../common/Heading'
 
 export default function Testimonials() {
   const { testimonials } = data
   return (
     <div className='container py-24'>
-      <div className='max-w-3xl mx-auto text-center space-y-4 mb-16'>
-        <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold'>
-          {testimonials.title.text} <span className='text-primary'>{testimonials.title.span}</span>
-        </h2>
-        <p className='text-muted-foreground text-xl'>{testimonials.description}</p>
-      </div>
+      <Heading title={testimonials.title as HeadingTitle[]} description={testimonials.description} />
       <div className='max-w-3xl mx-auto bg-[#0d0d0d] rounded-md p-4 sm:p-8'>
         <Carousel infiniteScroll itemsToShow={1}>
           <CarouselContent className='-ml-4'>

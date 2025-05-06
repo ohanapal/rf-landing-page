@@ -1,23 +1,13 @@
 import data from '@/data/homepage.json'
 import { CircleCheck } from 'lucide-react'
 import Image from 'next/image'
+import Heading, { HeadingTitle } from '../common/Heading'
 
 export default function RebelAdvantage() {
   const { rebelAdvantage } = data
   return (
     <section className='pb-24 pt-16 container'>
-      <div className='max-w-3xl mx-auto text-center space-y-4 mb-16'>
-        <h2 className='text-2xl md:text-3xl font-bold'>
-          {rebelAdvantage.title.map((title, i) => (
-            <span key={title.content}>
-              {title.type === 'text' ? title.content : <span className='text-primary'>{title.content}</span>}{' '}
-              {i !== rebelAdvantage.title.length - 1 && ' '}
-            </span>
-          ))}
-        </h2>
-        <p className='text-muted-foreground text-xl mx-auto'>{rebelAdvantage.description}</p>
-      </div>
-
+      <Heading title={rebelAdvantage.title as HeadingTitle[]} description={rebelAdvantage.description} />
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-8 items-center'>
         <Image
           src={rebelAdvantage.imageUrl}
