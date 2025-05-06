@@ -27,7 +27,7 @@ export default function Contact() {
   }
 
   return (
-    <section className='container py-16 md:py-20 lg:py-24'>
+    <section id='contact' className='container py-16 md:py-20 lg:py-24'>
       <Heading title={contact.title as HeadingTitle[]} description={contact.description} />
 
       <form

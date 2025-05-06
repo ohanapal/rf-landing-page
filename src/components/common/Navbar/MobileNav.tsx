@@ -5,6 +5,7 @@ import { X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Dispatch, SetStateAction } from 'react'
+import { Link as ScrollLink } from 'react-scroll'
 
 interface Props {
   isOpen: boolean
@@ -30,13 +31,43 @@ export default function MobileNav({ isOpen, setIsOpen }: Props) {
 
         <ul className='space-y-4 text-center mt-8'>
           <li onClick={() => setIsOpen(false)}>
-            <Link href='/'>Home</Link>
+            <ScrollLink
+              to='home'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className='cursor-pointer hover:text-primary transition-colors'
+              activeClass='text-primary font-medium'
+            >
+              Home
+            </ScrollLink>
           </li>
           <li onClick={() => setIsOpen(false)}>
-            <Link href='/about'>About</Link>
+            <ScrollLink
+              to='about'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className='cursor-pointer hover:text-primary transition-colors'
+              activeClass='text-primary font-medium'
+            >
+              About
+            </ScrollLink>
           </li>
           <li onClick={() => setIsOpen(false)}>
-            <Link href='/contact'>Contact</Link>
+            <ScrollLink
+              to='contact'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className='cursor-pointer hover:text-primary transition-colors'
+              activeClass='text-primary font-medium'
+            >
+              Contact
+            </ScrollLink>
           </li>
         </ul>
       </div>
