@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 
@@ -14,12 +15,17 @@ interface Props {
       text: string
       link: string
     }
+    isGradientBg?: boolean
   }
 }
 export default function CTA({ cta }: Props) {
   return (
-    <section className='py-20'>
-      <div className='container bg-[#07122c] py-15 rounded-lg shadow-sm space-y-6'>
+    <section className='py-20 px-4'>
+      <div
+        className={cn('container py-15 bg-[#0e1420] rounded-lg shadow-sm space-y-6', {
+          'bg-gradient-to-r from-[#2563EB33] via-[#9333EA33] to-[#DC262633]': cta?.isGradientBg,
+        })}
+      >
         <div className='max-w-2xl mx-auto text-center space-y-4'>
           <h2 className='text-3xl font-bold text-center'>{cta.title}</h2>
           <p className='text-muted-foreground'>{cta.description}</p>

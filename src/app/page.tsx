@@ -11,7 +11,7 @@ import Testimonials from '@/components/pages/homepage/Testimonials'
 import data from '@/data/homepage.json'
 
 export default function Home() {
-  const { cta, cta2 } = data
+  const { cta, cta2, cta3 } = data
   return (
     <main>
       <Hero />
@@ -25,6 +25,7 @@ export default function Home() {
       <Team />
       <Testimonials />
       <Contact />
+      <CTA cta={cta3} />
     </main>
   )
 }

@@ -9,6 +9,8 @@ export default function InputGroup({
   label,
   isTextarea = false,
   className,
+  inputClassName,
+  textareaClassName,
   ...rest
 }: {
   id: string
@@ -18,11 +20,18 @@ export default function InputGroup({
   isTextarea?: boolean
   name?: string
   onChange?: (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void
+  rows?: number
+  inputClassName?: string
+  textareaClassName?: string
 }) {
   return (
     <div className={cn('space-y-3', className)}>
       <Label htmlFor={id}>{label}</Label>
-      {isTextarea ? <Textarea id={id} {...rest} /> : <Input id={id} {...rest} />}
+      {isTextarea ? (
+        <Textarea id={id} {...rest} className={textareaClassName} />
+      ) : (
+        <Input id={id} {...rest} className={inputClassName} />
+      )}
     </div>
   )
 }

@@ -60,6 +60,8 @@ export default function Contact() {
           name='message'
           onChange={handleOnchangeInput}
           isTextarea
+          rows={5}
+          textareaClassName='resize-none min-h-28'
         />
         <Button type='submit' className='w-full mt-6'>
           Send Message

@@ -584,5 +584,18 @@
       "span": "Us"
     },
     "description": "Ready to transform your business with cutting-edge technology? Get in touch for a free consultation."
+  },
+  "cta3": {
+    "title": "Let's Build Something Amazing Together",
+    "description": "Schedule a free consultation to discuss how we can help you achieve your business goals.",
+    "btn1": {
+      "text": "Get Started",
+      "link": "/contact"
+    },
+    "btn2": {
+      "text": "View Services",
+      "link": "/services"
+    },
+    "isGradientBg": true
   }
 }
