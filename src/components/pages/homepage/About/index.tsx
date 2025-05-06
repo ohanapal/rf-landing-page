@@ -9,14 +9,14 @@ export default function About() {
   return (
     <section className='container py-24'>
       <div className='max-w-3xl mx-auto text-center space-y-4 mb-16'>
-        <h2 className='text-4xl font-bold'>
+        <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold'>
           {about.title.text} <span className='text-primary'>{about.title.span}</span>
         </h2>
         <p className='text-muted-foreground text-xl'>{about.description}</p>
       </div>
 
-      <div className='grid grid-cols-2 gap-x-12 gap-y-4 items-center'>
-        <div className='space-y-5'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-8 items-center'>
+        <div className='space-y-5 order-2 lg:order-1'>
           {about.texts.map((txt) => (
             <p className='text-muted-foreground text-lg' key={txt.id}>
               {txt.text.map((t, i) => (
@@ -33,8 +33,8 @@ export default function About() {
           </Link>
         </div>
 
-        <MagicCard className='rounded-md backdrop-blur-3xl'>
-          <div className='grid grid-cols-2 gap-3 bg-[#0d0d0d70] p-3'>
+        <MagicCard className='rounded-md backdrop-blur-3xl max-w-2xl mx-auto order-1 lg:order-2 lg:mx-0'>
+          <div className='grid grid-cols-2 gap-1 sm:gap-3 bg-[#0d0d0d70] p-1.5 sm:p-3'>
             {about.cardItems.map((item) => (
               <AboutCardItem key={item.id} item={item} />
             ))}
