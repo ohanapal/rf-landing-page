@@ -1,14 +1,31 @@
 'use client'
 import { RainbowButton } from '@/components/magicui/rainbow-button'
 import { BackgroundBeamsWithCollision } from '@/components/ui/background-beams-with-collision'
-import data from '@/data/homepage.json'
 import { motion } from 'motion/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Stripes from './Stripes'
 
-export default function Hero() {
-  const { hero } = data
+interface Props {
+  hero: {
+    title: {
+      text: string
+      span: string
+    }
+    description: string
+    scheduleBtn: {
+      text: string
+      link: string
+    }
+    exploreBtn: {
+      text: string
+      link: string
+    }
+    heroImgUrl: string
+  }
+}
+
+export default function Hero({ hero }: Props) {
   return (
     <header
       id='home'

@@ -746,5 +746,21 @@
         ]
       }
     ]
+  },
+  "comingSoon": {
+    "title": {
+      "text": "Coming",
+      "span": "Soon"
+    },
+    "description": "We are working on this page. Please check back soon...",
+    "scheduleBtn": {
+      "text": "Check Back Soon",
+      "link": "/"
+    },
+    "exploreBtn": {
+      "text": "Check Back Soon",
+      "link": "/"
+    },
+    "heroImgUrl": "/images/homepage/hero/hero.jpg"
   }
 }
