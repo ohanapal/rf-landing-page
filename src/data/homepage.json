@@ -597,5 +597,112 @@
       "link": "/services"
     },
     "isGradientBg": true
+  },
+  "footer": {
+    "text": "A leading technology company that thrives on innovation and creativity.",
+    "copyright": " Rebel Force. All rights reserved.",
+    "links": [
+      {
+        "type": "Pages",
+        "links": [
+          {
+            "id": 1,
+            "text": "Home",
+            "link": "/"
+          },
+          {
+            "id": 2,
+            "text": "About",
+            "link": "/about"
+          },
+          {
+            "id": 3,
+            "text": "Services",
+            "link": "/services"
+          },
+          {
+            "id": 4,
+            "text": "Contact",
+            "link": "/contact"
+          },
+          {
+            "id": 5,
+            "text": "Privacy Policy",
+            "link": "/privacy-policy"
+          },
+          {
+            "id": 6,
+            "text": "Terms of Service",
+            "link": "/terms-of-service"
+          }
+        ]
+      },
+      {
+        "type": "Socials",
+        "links": [
+          {
+            "id": 1,
+            "text": "Twitter",
+            "url": "https://twitter.com/rebelforce",
+            "icon": "lucide:twitter"
+          },
+          {
+            "id": 2,
+            "text": "LinkedIn",
+            "url": "https://linkedin.com/rebelforce",
+            "icon": "lucide:linkedin"
+          },
+          {
+            "id": 3,
+            "text": "Instagram",
+            "url": "https://instagram.com/rebelforce",
+            "icon": "lucide:instagram"
+          },
+          {
+            "id": 4,
+            "text": "Facebook",
+            "url": "https://facebook.com/rebelforce",
+            "icon": "lucide:facebook"
+          },
+          {
+            "id": 5,
+            "text": "Youtube",
+            "url": "https://youtube.com/rebelforce",
+            "icon": "lucide:youtube"
+          },
+          {
+            "id": 6,
+            "text": "TikTok",
+            "url": "https://tiktok.com/rebelforce",
+            "icon": "lucide:tiktok"
+          }
+        ]
+      },
+      {
+        "type": "Legal",
+        "links": [
+          {
+            "id": 1,
+            "text": "Privacy Policy",
+            "link": "/privacy-policy"
+          },
+          {
+            "id": 2,
+            "text": "Terms of Service",
+            "link": "/terms-of-service"
+          },
+          {
+            "id": 3,
+            "text": "Cookie Policy",
+            "link": "/cookie-policy"
+          },
+          {
+            "id": 4,
+            "text": "GDPR",
+            "link": "/gdpr"
+          }
+        ]
+      }
+    ]
   }
 }
