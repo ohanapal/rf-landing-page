@@ -1,1 +1,27 @@
-{}
+{
+  "projects": [
+    {
+      "id": 1,
+      "coverImageUrl": "",
+      "tags": [],
+      "title": "",
+      "description": "",
+      "projectUrl": "",
+      "client": "",
+      "date": "",
+      "duration": "",
+      "category": "",
+      "theChallenge": "",
+      "ourSolution": "",
+      "gallery": [],
+      "results": [],
+      "quote": {
+        "text": "",
+        "author": {
+          "name": "",
+          "title": ""
+        }
+      }
+    }
+  ]
+}
