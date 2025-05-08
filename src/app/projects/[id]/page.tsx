@@ -23,6 +23,7 @@ export interface IProject {
       title: string
     }
   }
+  isPinned?: boolean
 }
 
 export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {

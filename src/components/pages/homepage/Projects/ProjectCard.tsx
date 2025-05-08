@@ -1,19 +1,11 @@
+import { IProject } from '@/app/projects/[id]/page'
 import { GlowingEffect } from '@/components/ui/glowing-effect'
 import { ArrowRightIcon } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 interface Props {
-  project: {
-    id: number
-    tags: string[]
-    category: string
-    pinned: boolean
-    images: string[]
-    title: string
-    description: string
-    link: string
-  }
+  project: IProject
 }
 
 export default function ProjectCard({ project }: Props) {
@@ -30,7 +22,7 @@ export default function ProjectCard({ project }: Props) {
           inactiveZone={0.01}
         />
         <Image
-          src={project.images[0]}
+          src={project.coverImageUrl}
           width={600}
           height={400}
           alt={project.title}
@@ -49,7 +41,7 @@ export default function ProjectCard({ project }: Props) {
             <p className='text-sm text-muted-foreground'>{project.description}</p>
           </div>
           <Link
-            href={project.link}
+            href={`/projects/${project.id}`}
             className='text-[#60A5FA] tex-sm font-medium mt-2 inline-flex items-center gap-x-3 w-auto group'
           >
             View Project

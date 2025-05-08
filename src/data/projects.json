@@ -3,7 +3,16 @@
     {
       "id": 1,
       "coverImageUrl": "/images/projects/cover/dt-global.png",
-      "tags": ["communities", "research", "human development", "economy", "environment", "trade", "infrastructure", "technology"],
+      "tags": [
+        "communities",
+        "research",
+        "human development",
+        "economy",
+        "environment",
+        "trade",
+        "infrastructure",
+        "technology"
+      ],
       "title": "DT Global",
       "description": "The website mirrors DT Global's ethos and showcases their global reach through an interactive map. The site is visually appealing, functional, and easy to navigate, with SEO optimization for improved visibility.",
       "projectUrl": "https://dt-global.com/",
@@ -13,11 +22,18 @@
       "category": "Web",
       "theChallenge": "The organization faces several challenges that these solutions aim to address. There is a need to foster a culture that supports innovation by encouraging experimentation and risk-taking, as current practices may discourage stepping beyond comfort zones. Civility is another area of concern, with a lack of consistent recognition of individuals' contributions and a need to build stronger communities rooted in respect and understanding. Additionally, there are gaps in learning and adaptation, particularly in capturing, reflecting on, and applying best practices to address both programmatic and professional challenges. Issues related to diversity, equity, inclusion, and accessibility persist, with a need to ensure that participation is truly equitable and that diverse perspectives are represented across all levels. Finally, the pursuit of technical excellence highlights the necessity for enhanced technical expertise and leadership to consistently deliver impactful, cutting-edge solutions.",
       "ourSolution": "Rebel Force developed a comprehensive digital platform for DT Global, a renowned. The website mirrors DT Global's ethos and showcases their global reach through an interactive map. The site is visually appealing, functional, and easy to navigate, with SEO optimization for improved visibility. Leveraging our expertise in front-end and back-end development, UI/UX design, and content management systems, we created a visually appealing, functional, and easy-to-navigate website. We ensured responsive design for optimal viewing across different devices. Additionally, we provided SEO optimization services to improve the website's visibility and integrated the site with various platforms for efficient content management and updates. The final product reflects Rebel Force's commitment to delivering high-quality, tailored web solutions.",
-      "gallery": ["/images/projects/gallery/dt-global-1.png", "/images/projects/gallery/dt-global-2.png", "/images/projects/gallery/dt-global-3.png", "/images/projects/gallery/dt-global-4.png", "/images/projects/gallery/dt-global-5.png"],
-      "results": ["Increased employee engagement and innovation through a culture that supports risk-taking and experimentation.",
-      "Stronger, more respectful workplace relationships built on shared values of civility and inclusion.", 
-      "Improved program outcomes through systematic learning, documentation, and application of best practices.",
-      "Greater impact and credibility driven by diverse participation and advanced technical excellence."
+      "gallery": [
+        "/images/projects/gallery/dt-global-1.png",
+        "/images/projects/gallery/dt-global-2.png",
+        "/images/projects/gallery/dt-global-3.png",
+        "/images/projects/gallery/dt-global-4.png",
+        "/images/projects/gallery/dt-global-5.png"
+      ],
+      "results": [
+        "Increased employee engagement and innovation through a culture that supports risk-taking and experimentation.",
+        "Stronger, more respectful workplace relationships built on shared values of civility and inclusion.",
+        "Improved program outcomes through systematic learning, documentation, and application of best practices.",
+        "Greater impact and credibility driven by diverse participation and advanced technical excellence."
       ],
       "quote": {
         "text": "Innovation thrives when people feel safe to fail forward and learn faster.",
@@ -25,12 +41,22 @@
           "name": "Jamie Carter",
           "title": "Chief Innovation Officer"
         }
-      }
+      },
+      "isPinned": true
     },
     {
       "id": 2,
       "coverImageUrl": "/images/projects/cover/wild-team.png",
-      "tags": ["wildlife conservation", "sundarbans", "tiger", "poaching", "community engagement", "environment", "research", "Bangladesh"],
+      "tags": [
+        "wildlife conservation",
+        "sundarbans",
+        "tiger",
+        "poaching",
+        "community engagement",
+        "environment",
+        "research",
+        "Bangladesh"
+      ],
       "title": "WildTeam",
       "description": "The WildTeam website communicates powerful conservation messages through visually engaging design and a structured library of scientific research. It connects visitors with WildTeam’s work in the Sundarbans, highlighting studies, community initiatives, and efforts to conserve the Bengal tiger.",
       "projectUrl": "https://wildteam.org.bd/",
@@ -59,12 +85,22 @@
           "name": "Dr. Farid Hossain",
           "title": "Conservation Program Director, WildTeam"
         }
-      }
+      },
+      "isPinned": true
     },
     {
       "id": 3,
       "coverImageUrl": "/images/projects/cover/actively.png",
-      "tags": ["AI", "travel", "machine learning", "personalization", "itinerary", "real-time data", "collaboration", "trip planning"],
+      "tags": [
+        "AI",
+        "travel",
+        "machine learning",
+        "personalization",
+        "itinerary",
+        "real-time data",
+        "collaboration",
+        "trip planning"
+      ],
       "title": "AI Trip Planner",
       "description": "A smart travel planning app that uses AI to generate personalized itineraries based on user preferences, real-time insights, and collaborative input. The system supports both natural language and structured prompts, making it flexible and intuitive for diverse travel needs.",
       "projectUrl": "",
@@ -92,7 +128,8 @@
           "name": "Amira Khan",
           "title": "Frequent Traveler & Beta Tester"
         }
-      }
+      },
+      "isPinned": true
     },
     {
       "id": 4,
@@ -125,7 +162,8 @@
           "name": "Linda Green",
           "title": "Product Manager, Apple Inc"
         }
-      }
+      },
+      "isPinned": true
     },
     {
       "id": 5,
@@ -159,7 +197,8 @@
           "name": "Taylor Kim",
           "title": "Productivity Coach"
         }
-      }
+      },
+      "isPinned": true
     },
     {
       "id": 6,
@@ -191,7 +230,8 @@
           "name": "Farzana Ahmed",
           "title": "Frequent Customer"
         }
-      }
+      },
+      "isPinned": true
     },
     {
       "id": 7,
@@ -311,10 +351,7 @@
       "category": "Web & App",
       "theChallenge": "To build a powerful yet user-friendly AI assistant capable of real-time communication and desktop automation.",
       "ourSolution": "We developed a robust AI interface with modular services for chat, scheduling, and desktop control. The assistant uses smart prompts, backend automation hooks, and system integrations to provide real-time user support.",
-      "gallery": [
-        "/images/projects/gallery/ohanapal-1.png",
-        "/images/projects/gallery/ohanapal-2.png"
-      ],
+      "gallery": ["/images/projects/gallery/ohanapal-1.png", "/images/projects/gallery/ohanapal-2.png"],
       "results": [
         "Deployed a fully interactive AI dashboard with desktop control.",
         "Increased user efficiency through task automation and real-time assistance.",
@@ -332,7 +369,14 @@
     {
       "id": 10,
       "coverImageUrl": "/images/projects/cover/vnp.png",
-      "tags": ["Hotel Management", "Property Auditing", "Revenue Management", "Dashboard", "OTA Integration", "Hospitality"],
+      "tags": [
+        "Hotel Management",
+        "Property Auditing",
+        "Revenue Management",
+        "Dashboard",
+        "OTA Integration",
+        "Hospitality"
+      ],
       "title": "VNP Solutions Hotel Management Platform",
       "description": "VNP Solutions is a comprehensive hotel property management system designed for tracking financial data across multiple online travel agencies (OTAs) including Expedia, Booking.com, and Agoda/Priceline. The platform features a robust dashboard displaying key metrics like collectible revenue ($16,978,083.57), confirmed revenue ($12,476,226.87), total properties (3,223), and audit statistics (3,812 total audits). Users can track property performance, manage audits, view revenue trends, and handle user permissions all from a centralized interface. The system helps hotel management teams reconcile financial data across multiple booking channels and maintain proper audit records for thousands of properties.",
       "projectUrl": "",
