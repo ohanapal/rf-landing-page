@@ -38,7 +38,7 @@ export default function ProjectCard({ project }: Props) {
               ))}
             </div>
             <h3 className='text-xl font-bold mt-2 mb-1'>{project.title}</h3>
-            <p className='text-sm text-muted-foreground'>{project.description}</p>
+            <p className='text-sm text-muted-foreground line-clamp-6'>{project.description}</p>
           </div>
           <Link
             href={`/projects/${project.id}`}
