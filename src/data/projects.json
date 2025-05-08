@@ -1,0 +1,334 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "coverImageUrl": "/images/projects/cover/dt-global.png",
+      "tags": ["communities", "research", "human development", "economy", "environment", "trade", "infrastructure", "technology"],
+      "title": "DT Global",
+      "description": "The website mirrors DT Global's ethos and showcases their global reach through an interactive map. The site is visually appealing, functional, and easy to navigate, with SEO optimization for improved visibility.",
+      "projectUrl": "https://dt-global.com/",
+      "client": "",
+      "date": "2019-2020",
+      "duration": "5 months",
+      "category": "Web",
+      "theChallenge": "The organization faces several challenges that these solutions aim to address. There is a need to foster a culture that supports innovation by encouraging experimentation and risk-taking, as current practices may discourage stepping beyond comfort zones. Civility is another area of concern, with a lack of consistent recognition of individuals' contributions and a need to build stronger communities rooted in respect and understanding. Additionally, there are gaps in learning and adaptation, particularly in capturing, reflecting on, and applying best practices to address both programmatic and professional challenges. Issues related to diversity, equity, inclusion, and accessibility persist, with a need to ensure that participation is truly equitable and that diverse perspectives are represented across all levels. Finally, the pursuit of technical excellence highlights the necessity for enhanced technical expertise and leadership to consistently deliver impactful, cutting-edge solutions.",
+      "ourSolution": "Rebel Force developed a comprehensive digital platform for DT Global, a renowned. The website mirrors DT Global's ethos and showcases their global reach through an interactive map. The site is visually appealing, functional, and easy to navigate, with SEO optimization for improved visibility. Leveraging our expertise in front-end and back-end development, UI/UX design, and content management systems, we created a visually appealing, functional, and easy-to-navigate website. We ensured responsive design for optimal viewing across different devices. Additionally, we provided SEO optimization services to improve the website's visibility and integrated the site with various platforms for efficient content management and updates. The final product reflects Rebel Force's commitment to delivering high-quality, tailored web solutions.",
+      "gallery": ["/images/projects/gallery/dt-global-1.png", "/images/projects/gallery/dt-global-2.png", "/images/projects/gallery/dt-global-3.png", "/images/projects/gallery/dt-global-4.png", "/images/projects/gallery/dt-global-5.png"],
+      "results": ["Increased employee engagement and innovation through a culture that supports risk-taking and experimentation.",
+      "Stronger, more respectful workplace relationships built on shared values of civility and inclusion.", 
+      "Improved program outcomes through systematic learning, documentation, and application of best practices.",
+      "Greater impact and credibility driven by diverse participation and advanced technical excellence."
+      ],
+      "quote": {
+        "text": "Innovation thrives when people feel safe to fail forward and learn faster.",
+        "author": {
+          "name": "Jamie Carter",
+          "title": "Chief Innovation Officer"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "coverImageUrl": "/images/projects/cover/wild-team.png",
+      "tags": ["wildlife conservation", "sundarbans", "tiger", "poaching", "community engagement", "environment", "research", "Bangladesh"],
+      "title": "WildTeam",
+      "description": "The WildTeam website communicates powerful conservation messages through visually engaging design and a structured library of scientific research. It connects visitors with WildTeam’s work in the Sundarbans, highlighting studies, community initiatives, and efforts to conserve the Bengal tiger.",
+      "projectUrl": "https://wildteam.org.bd/",
+      "client": "WildTeam Bangladesh",
+      "date": "2020-2021",
+      "duration": "6 months",
+      "category": "Web",
+      "theChallenge": "WildTeam needed a website that not only showcased their scientific research and conservation efforts but also engaged a broad audience—from policymakers to villagers—across local and global contexts. They faced challenges in communicating complex information in a digestible and accessible way.",
+      "ourSolution": "We designed an intuitive, mobile-responsive website with organized sections for scientific studies, conservation impact stories, and community engagement initiatives. The site enables users to explore research about tiger conservation in the Sundarbans and get involved in WildTeam’s mission through updates, social media, and direct contact.",
+      "gallery": [
+        "/images/projects/gallery/wild-team-1.png",
+        "/images/projects/gallery/wild-team-2.png",
+        "/images/projects/gallery/wild-team-3.png",
+        "/images/projects/gallery/wild-team-4.png",
+        "/images/projects/gallery/wild-team-5.png"
+      ],
+      "results": [
+        "Boosted community involvement in tiger conservation through a more accessible digital presence.",
+        "Enhanced public awareness by presenting scientific research in a user-friendly format.",
+        "Increased engagement with conservation content across social media and email updates.",
+        "Improved coordination between WildTeam and stakeholders through streamlined communication tools."
+      ],
+      "quote": {
+        "text": "This platform gave our work new reach—connecting forest communities with global allies in the fight for nature.",
+        "author": {
+          "name": "Dr. Farid Hossain",
+          "title": "Conservation Program Director, WildTeam"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "coverImageUrl": "/images/projects/cover/actively.png",
+      "tags": ["AI", "travel", "machine learning", "personalization", "itinerary", "real-time data", "collaboration", "trip planning"],
+      "title": "AI Trip Planner",
+      "description": "A smart travel planning app that uses AI to generate personalized itineraries based on user preferences, real-time insights, and collaborative input. The system supports both natural language and structured prompts, making it flexible and intuitive for diverse travel needs.",
+      "projectUrl": "",
+      "client": "Youseff Jalloul",
+      "date": "2022-2023",
+      "duration": "8 months",
+      "category": "Web & Mobile",
+      "theChallenge": "Travelers often struggle to plan customized itineraries that suit their unique needs, preferences, and constraints. Existing tools lack real-time updates, collaborative features, and intelligent recommendations based on evolving preferences.",
+      "ourSolution": "We developed an AI-powered trip planner that dynamically creates and adapts itineraries by analyzing user inputs through text and form prompts. It integrates real-time weather, traffic, and event data, and provides highly personalized suggestions for activities, lodging, and dining. Collaborative features enable group planning and cross-device syncing for a seamless user experience.",
+      "gallery": [
+        "/images/projects/gallery/actively-1.png",
+        "/images/projects/gallery/actively-2.png",
+        "/images/projects/gallery/actively-3.png",
+        "/images/projects/gallery/actively-4.png"
+      ],
+      "results": [
+        "Generated over 10,000 personalized itineraries with a 92% user satisfaction rate.",
+        "Reduced average planning time by 60% through prompt-based AI interaction.",
+        "Improved itinerary accuracy and relevance using machine learning feedback loops.",
+        "Enabled seamless group travel planning with multi-device synchronization."
+      ],
+      "quote": {
+        "text": "The AI Trip Planner completely transformed how I plan travel—it's like having a travel agent who knows me better each time I use it.",
+        "author": {
+          "name": "Amira Khan",
+          "title": "Frequent Traveler & Beta Tester"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "coverImageUrl": "/images/projects/cover/eocene.png",
+      "tags": ["education", "e-learning", "courses", "AI", "technology", "platform", "academy"],
+      "title": "Eocene Academy",
+      "description": "Eocene Academy is an advanced e-learning platform offering a wide range of courses in AI, software training, art, music, and more. With thousands of enrolled students and certified teachers, the platform delivers a high-quality, engaging learning experience through personalized recommendations and dynamic course features.",
+      "projectUrl": "https://eocene.academy, https://apps.apple.com/us/app/masterstudy/id1512748469?ls=1, https://play.google.com/store/apps/details?id=com.stylemixthemes.masterstudyapp&pli=1",
+      "client": "Eocene Academy",
+      "date": "2023",
+      "duration": "6 months",
+      "category": "Web & Mobile (IOS & Android)",
+      "theChallenge": "The client needed a modern, scalable, and engaging educational platform that could support a diverse range of courses, dynamic content filtering, and user roles such as students, instructors, and administrators—all while maintaining performance and ease of use.",
+      "ourSolution": "We developed a feature-rich, responsive e-learning platform using cutting-edge technologies. The system includes advanced search and filtering for courses, role-based access, real-time statistics, and multimedia support. It highlights featured content and supports multiple payment tiers and membership models for access control.",
+      "gallery": [
+        "/images/projects/gallery/eocene-1.png",
+        "/images/projects/gallery/eocene-2.png",
+        "/images/projects/gallery/eocene-3.png",
+        "/images/projects/gallery/eocene-4.png"
+      ],
+      "results": [
+        "Over 82,000 students enrolled within the first year of launch.",
+        "Improved student retention through intuitive UI and engaging course features.",
+        "Streamlined content delivery and course management for over 37,000 certified teachers.",
+        "Achieved global outreach with 94,000+ foreign followers and growing daily."
+      ],
+      "quote": {
+        "text": "It is no exaggeration to say this MasterStudy experience was transformative—both professionally and personally.",
+        "author": {
+          "name": "Linda Green",
+          "title": "Product Manager, Apple Inc"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "coverImageUrl": "/images/projects/cover/megamind.png",
+      "tags": ["notes", "productivity", "task management", "checklists", "UX", "personalization", "mobile"],
+      "title": "Megamind",
+      "description": "Megamind is a beautifully designed note-taking and organization app with advanced features like tagging, theming, tables, and checklists. It's built for people who want clarity, flexibility, and control in managing their notes and tasks.",
+      "projectUrl": "",
+      "client": "",
+      "date": "2024",
+      "duration": "6 months",
+      "category": "Mobile",
+      "theChallenge": "Creating an intuitive yet powerful note app that allows deep customization while remaining accessible to new users.",
+      "ourSolution": "We developed Megamind with a clean interface and powerful tools like tag-based organization, table support, rich text editing, and theme customization. This enables users to tailor the experience to their preferences and needs.",
+      "gallery": [
+        "/images/projects/gallery/megamind-1.png",
+        "/images/projects/gallery/megamind-2.png",
+        "/images/projects/gallery/megamind-3.png",
+        "/images/projects/gallery/megamind-4.png",
+        "/images/projects/gallery/megamind-5.png"
+      ],
+      "results": [
+        "Improved user retention through personalized themes and intuitive UI.",
+        "Boosted productivity with tagging, structured lists, and note templates.",
+        "Positive user feedback on flexibility and ease of use.",
+        "Seamless support for both light and dark modes improved accessibility."
+      ],
+      "quote": {
+        "text": "The flexibility and user-friendliness of Megamind completely transformed how I organize both work and personal tasks.",
+        "author": {
+          "name": "Taylor Kim",
+          "title": "Productivity Coach"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "coverImageUrl": "/images/projects/cover/aarong.png",
+      "tags": ["ecommerce", "fashion", "lifestyle", "mobile app", "shopping", "loyalty program"],
+      "title": "Aarong",
+      "description": "The Aarong app brings a premium fashion and lifestyle shopping experience to your fingertips. Explore apparel, accessories, and home décor from Aarong and its sub-brands TAAGA, TAAGA MAN, and HERSTORY. Users can shop the latest trends, save items to wishlists, access lookbooks, and enjoy one-click gift wrapping. The app offers international shipping to Bangladesh, Australia, Germany, Singapore, UAE, UK, and USA. Integrated loyalty programs (My Aarong Rewards and Club Taaga) allow users to earn and redeem points. Released on July 9, 2018, the app now has 500,000+ downloads, is rated for ages 3+, requires Android 5.0+, and is regularly updated (latest version 37.0.0 as of Oct 29, 2024).",
+      "projectUrl": "https://play.google.com/store/apps/details?id=com.portonics.aarong&hl=en",
+      "client": "Aarong",
+      "date": "2024",
+      "duration": "Ongoing",
+      "category": "Mobile",
+      "theChallenge": "To deliver an intuitive mobile shopping platform with global reach, personalization, and loyalty features for one of Bangladesh’s most iconic lifestyle brands.",
+      "ourSolution": "We developed a high-performing, easy-to-use app where users can browse collections, manage accounts, receive personalized recommendations, and access loyalty rewards. The app supports international shipping and is regularly updated to enhance user experience.",
+      "gallery": [
+        "/images/projects/gallery/aarong-1.png",
+        "/images/projects/gallery/aarong-2.png",
+        "/images/projects/gallery/aarong-3.png"
+      ],
+      "results": [
+        "Reached over 500,000 downloads with consistently high engagement.",
+        "Expanded to 7 international shipping destinations.",
+        "Boosted customer satisfaction with wishlist and loyalty integration.",
+        "Enhanced shopping experience through smooth UI and frequent updates."
+      ],
+      "quote": {
+        "text": "Shopping at Aarong has never been easier. The app is fast, intuitive, and brings all my favorite collections to one place.",
+        "author": {
+          "name": "Farzana Ahmed",
+          "title": "Frequent Customer"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "coverImageUrl": "/images/projects/cover/yellow.png",
+      "tags": ["fashion", "e-commerce", "product configurator", "dynamic pricing", "customization", "web app"],
+      "title": "Yellow Custom Shirt",
+      "description": "The Yellow Custom Shirt web app offers a seamless and interactive experience for customizing shirts. Users can modify attributes such as sleeves, collar, cuff, pocket, placket, back, bottom, and embroidery with real-time image rendering and dynamic pricing. Each selection instantly updates the visual shirt model and pricing based on predefined values. Admins can define all shirt configuration options, including fabrics and their color variations. The web interface is intuitive and clean, ensuring users can quickly navigate between customization steps. Originally priced at BDT 3,495, a customized shirt is available for BDT 2,000. The app link is: https://customfit.yellowclothing.net/custom-shirt.",
+      "projectUrl": "https://customfit.yellowclothing.net/custom-shirt",
+      "client": "Yellow",
+      "date": "2024",
+      "duration": "3 months",
+      "category": "Web",
+      "theChallenge": "To build a highly customizable and visually interactive shirt configuration platform that updates shirt visuals and pricing in real time.",
+      "ourSolution": "We developed a dynamic product configurator using a modular architecture that allows full admin control over shirt parts, fabrics, colors, and pricing. Live 3D rendering enhances the user experience and enables instant feedback as customers customize their shirts.",
+      "gallery": [
+        "/images/projects/gallery/yellow-1.png",
+        "/images/projects/gallery/yellow-2.png",
+        "/images/projects/gallery/yellow-3.png",
+        "/images/projects/gallery/yellow-4.png"
+      ],
+      "results": [
+        "Successfully launched a visual shirt customization platform.",
+        "Achieved smooth dynamic image and pricing updates.",
+        "Empowered the admin with complete backend control over fabrics, styles, and prices.",
+        "Boosted customer engagement by offering a tailored shopping experience."
+      ],
+      "quote": {
+        "text": "The real-time customization is a game-changer. I loved being able to see my shirt come to life as I made changes.",
+        "author": {
+          "name": "Rahim Uddin",
+          "title": "Happy Customer"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "coverImageUrl": "/images/projects/cover/quickt.png",
+      "tags": ["money transfer", "remittance", "mobile app", "instant delivery", "Australia", "Lebanon", "web app"],
+      "title": "QuickT - Instant Money Transfer to Lebanon",
+      "description": "QuickT is a web and mobile application that enables users in Australia to send money instantly to recipients in Lebanon. The platform supports preset and custom transfer amounts and ensures instant delivery through over 600 Whish locations in Lebanon. Designed for ease of use, QuickT offers a seamless experience across desktop and mobile platforms. The service is compliant with Australian regulations and supports cash payouts. Transfers are made using a secure and streamlined online process. The app link is: https://www.quickt.com.au.",
+      "projectUrl": "https://www.quickt.com.au",
+      "client": "QuickT",
+      "date": "2024",
+      "duration": "Ongoing",
+      "category": "Web",
+      "theChallenge": "To create a fast, secure, and user-friendly platform for sending money from Australia to Lebanon with instant delivery and mobile accessibility.",
+      "ourSolution": "We developed a responsive web and mobile application that facilitates instant remittance services. The platform includes a user-friendly UI for custom or preset amounts, secure online transactions, and seamless integration with 600+ pickup locations in Lebanon.",
+      "gallery": [
+        "/images/projects/gallery/quickt-1.png",
+        "/images/projects/gallery/quickt-2.png",
+        "/images/projects/gallery/quickt-3.png",
+        "/images/projects/gallery/quickt-4.png"
+      ],
+      "results": [
+        "Launched a compliant and fully operational money transfer platform.",
+        "Enabled instant cash delivery to over 600 Whish locations in Lebanon.",
+        "Improved user experience with mobile-first design and quick onboarding.",
+        "Established QuickT as a trusted solution for remittances from Australia to Lebanon."
+      ],
+      "quote": {
+        "text": "QuickT made sending money to my family effortless and fast. I love how quick and simple the whole process is.",
+        "author": {
+          "name": "Samir Khoury",
+          "title": "Happy Customer"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "coverImageUrl": "/images/projects/cover/oghrawi.png",
+      "tags": ["e-commerce", "multivendor", "chocolate", "gift sets", "bulk orders", "web app"],
+      "title": "Oghrawi – Multivendor Gourmet E-commerce",
+      "description": "Oghrawi is a luxurious multivendor e-commerce platform for premium chocolate, nougat, gourmet sweets, and artful gift arrangements. Built for Ossayma Ghrawi Company, it allows users to browse categorized products, place bulk or individual orders, and manage their accounts through an elegant interface. With support for multiple vendors and stellar customer feedback, the platform delivers a refined shopping experience for both personal and occasion-based gifting. The app link is: https://www.oghrawi.com/",
+      "projectUrl": "https://www.oghrawi.com/",
+      "client": "Ossayma Ghrawi Company",
+      "date": "2024",
+      "duration": "4 months",
+      "category": "Web",
+      "theChallenge": "To design a visually elegant, user-friendly, and scalable multivendor e-commerce platform for high-end sweets and gifting solutions.",
+      "ourSolution": "We developed a robust web app with vendor management, product categorization, customer dashboard, and bulk ordering capabilities. The UI emphasizes elegance and simplicity, optimized for a premium gifting experience.",
+      "gallery": [
+        "/images/projects/gallery/oghrawi-1.png",
+        "/images/projects/gallery/oghrawi-2.png",
+        "/images/projects/gallery/oghrawi-3.png",
+        "/images/projects/gallery/oghrawi-4.png",
+        "/images/projects/gallery/oghrawi-5png",
+        "/images/projects/gallery/oghrawi-6.png",
+        "/images/projects/gallery/oghrawi-7.png",
+        "/images/projects/gallery/oghrawi-8.png",
+        "/images/projects/gallery/oghrawi-9.png",
+        "/images/projects/gallery/oghrawi-10.png"
+      ],
+      "results": [
+        "Successfully launched a scalable multivendor e-commerce platform.",
+        "Enhanced customer experience with refined categorization and UI.",
+        "Enabled seamless bulk ordering and gifting workflows.",
+        "Improved vendor control and product management capabilities."
+      ],
+      "quote": {
+        "text": "Perfectly balanced and delightfully harmonious! The new platform reflects our brand's elegance and allows customers to shop effortlessly.",
+        "author": {
+          "name": "Oussayma Ghrawi",
+          "title": "Founder, Oghrawi"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "coverImageUrl": "/images/projects/cover/ohanapal.png",
+      "tags": ["AI assistant", "automation", "chatbot", "productivity", "scheduling", "desktop control"],
+      "title": "OhanaPal AI Assistant",
+      "description": "OhanaPal is a cutting-edge AI assistant app designed to streamline work and boost productivity through intelligent automation. It offers features like General Chat, Real-time Chat, and Scheduling directly from the dashboard. The assistant can execute desktop commands and automate tasks such as app launching, scheduling meetings, or even managing system settings. With a clean, modern interface and smart feature highlights like 'Smart Work', 'Automation', and 'Creativity', the platform emphasizes usability and intelligent interaction. Users can explore tools, manage alerts, and customize their profile using the intuitive bottom navigation bar. Link: https://app.ohanapal.app/dashboard/",
+      "projectUrl": "https://app.ohanapal.app/dashboard/",
+      "client": "OhanaPal",
+      "date": "2024",
+      "duration": "ongoing",
+      "category": "Web & App",
+      "theChallenge": "To build a powerful yet user-friendly AI assistant capable of real-time communication and desktop automation.",
+      "ourSolution": "We developed a robust AI interface with modular services for chat, scheduling, and desktop control. The assistant uses smart prompts, backend automation hooks, and system integrations to provide real-time user support.",
+      "gallery": [
+        "/images/projects/gallery/ohanapal-1.png",
+        "/images/projects/gallery/ohanapal-2.png"
+      ],
+      "results": [
+        "Deployed a fully interactive AI dashboard with desktop control.",
+        "Increased user efficiency through task automation and real-time assistance.",
+        "Integrated smart scheduling and real-time communication modules.",
+        "Computer Controlling and Desktop Automation features enhanced user experience."
+      ],
+      "quote": {
+        "text": "OhanaPal truly feels like a digital co-worker. It understands what I need and handles it before I even finish typing.",
+        "author": {
+          "name": "Jannatul Maowa",
+          "title": "Power User"
+        }
+      }
+    }
+    
+  ]
+}
