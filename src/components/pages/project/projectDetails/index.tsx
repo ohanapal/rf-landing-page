@@ -25,7 +25,7 @@ export default function ProjectDetails({ id }: { id: string }) {
     return <div>Project not found</div>
   }
   return (
-    <div>
+    <div className='pt-16'>
       <ProjectHeader project={project} />
       <div className='container'>
         <ProjectTimeline project={project} />

@@ -7,7 +7,7 @@ export default function ProjectsPage() {
   const { projects } = data
   const { projects: allProjects } = projectsData
   return (
-    <section className='py-12 md:py-20'>
+    <section className='py-12 md:py-20 pt-16'>
       <div className='container'>
         <Heading title={projects.title as HeadingTitle[]} description={projects.description} />
       </div>
