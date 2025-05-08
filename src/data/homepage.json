@@ -458,109 +458,61 @@
     "members": [
       {
         "id": 1,
-        "name": "John Doe",
-        "title": "CTO",
-        "description": "John is a seasoned technology leader with a passion for building innovative solutions that drive business growth.",
-        "imageUrl": "/images/homepage/team/placeholder.png",
+        "name": "Abrar Anwar",
+        "title": "CTO | Head of the Jedi Council",
+        "description": "With over 12 years in the tech galaxy, Abrar leads the charge as Rebel Force’s resident Cloud Jedi. A specialist in architecture, he’s engineered scalable infrastructures that power systems for millions of users. From telco ecosystems to AI engines and fintech frameworks, his leadership in mission-critical deployments helps push the boundaries of digital innovation at lightspeed.",
+        "imageUrl": "/images/homepage/team/Abrar_Anwar_CTO.jpeg",
         "socials": [
           {
             "id": 1,
-            "name": "Twitter",
-            "url": "https://twitter.com/rebelforce",
-            "icon": "lucide:twitter"
-          },
-          {
-            "id": 2,
             "name": "LinkedIn",
-            "url": "https://linkedin.com/rebelforce",
+            "url": "https://www.linkedin.com/in/abrar-anwar92/",
             "icon": "lucide:linkedin"
-          },
-          {
-            "id": 3,
-            "name": "Instagram",
-            "url": "https://instagram.com/rebelforce",
-            "icon": "lucide:instagram"
           }
         ]
       },
       {
         "id": 2,
-        "name": "Jane Smith",
-        "title": "Senior Developer",
-        "description": "Jane is a senior developer with a passion for building innovative solutions that drive business growth.",
-        "imageUrl": "/images/homepage/team/placeholder.png",
+        "name": "Emile Sawaya",
+        "title": "CEO | Captain of the Ship",
+        "description": "A serial entrepreneur and TechStars alumnus, Emile has piloted ventures through hyperspace across fintech and accessibility sectors for over 11 years. After selling his last startup to Barclays Bank, he set his sights on building the future of technology with Rebel Force. Equal parts visionary and strategist, Emile ensures the mission stays on course while navigating the ever-shifting tech landscape.",
+        "imageUrl": "/images/homepage/team/Emile_Sawaya_CEO_copy.jpeg",
         "socials": [
           {
             "id": 1,
-            "name": "Twitter",
-            "url": "https://twitter.com/rebelforce",
-            "icon": "lucide:twitter"
-          },
-          {
-            "id": 2,
             "name": "LinkedIn",
-            "url": "https://linkedin.com/rebelforce",
+            "url": "https://www.linkedin.com/in/emile-sawaya/",
             "icon": "lucide:linkedin"
-          },
-          {
-            "id": 3,
-            "name": "Instagram",
-            "url": "https://instagram.com/rebelforce",
-            "icon": "lucide:instagram"
           }
         ]
       },
       {
         "id": 3,
-        "name": "John Doe",
-        "title": "CTO",
-        "description": "John is a seasoned technology leader with a passion for building innovative solutions that drive business growth.",
-        "imageUrl": "/images/homepage/team/placeholder.png",
+        "name": "Nasif Azwad",
+        "title": "Client Relations Manager | Gungan Galactic Senator",
+        "description": "Nasif is the diplomatic core of Rebel Force. With an MBA and 7+ years of experience across business and tech interfaces, he excels in expectation management, communication strategy, and forging alliances. Whether brokering intergalactic deals or translating dev-speak into business goals, Nasif ensures our clients always feel heard, understood, and part of the rebellion.",
+        "imageUrl": "/images/homepage/team/Nasif_Azwad-_Client_Manager.jpeg",
         "socials": [
           {
             "id": 1,
-            "name": "Twitter",
-            "url": "https://twitter.com/rebelforce",
-            "icon": "lucide:twitter"
-          },
-          {
-            "id": 2,
             "name": "LinkedIn",
-            "url": "https://linkedin.com/rebelforce",
+            "url": "https://www.linkedin.com/in/nasif-azwad/",
             "icon": "lucide:linkedin"
-          },
-          {
-            "id": 3,
-            "name": "Instagram",
-            "url": "https://instagram.com/rebelforce",
-            "icon": "lucide:instagram"
           }
         ]
       },
       {
         "id": 4,
-        "name": "John Doe",
-        "title": "CTO",
-        "description": "John is a seasoned technology leader with a passion for building innovative solutions that drive business growth.",
-        "imageUrl": "/images/homepage/team/placeholder.png",
+        "name": "Mehdi Hassan",
+        "title": "Project Lead | Rebel Commander",
+        "description": "Mehdi is our full-stack Force user — a seasoned warrior with 8+ years of battle-tested experience in mobile and backend development. Whether he's crafting seamless cross-platform apps, building solid Python-based backends, or polishing next-gen UI/UX, Mehdi leads tech teams like a true Rebel general, combining precision, agility, and creative firepower.",
+        "imageUrl": "/images/homepage/team/Mehdi_Head_of_UIUX.jpg",
         "socials": [
           {
             "id": 1,
-            "name": "Twitter",
-            "url": "https://twitter.com/rebelforce",
-            "icon": "lucide:twitter"
-          },
-          {
-            "id": 2,
             "name": "LinkedIn",
-            "url": "https://linkedin.com/rebelforce",
+            "url": "https://www.linkedin.com/in/neilsadev/",
             "icon": "lucide:linkedin"
-          },
-          {
-            "id": 3,
-            "name": "Instagram",
-            "url": "https://instagram.com/rebelforce",
-            "icon": "lucide:instagram"
           }
         ]
       }

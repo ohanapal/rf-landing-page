@@ -25,7 +25,7 @@ export default function TeamMember({ member }: Props) {
         alt={member.name}
         width={300}
         height={300}
-        className='w-full h-auto aspect-square object-cover'
+        className='w-full h-auto aspect-[1.2/1] object-cover'
       />
       <div className='p-4 pt-8 space-y-2'>
         <h6 className='text-lg font-bold'>{member.name}</h6>
