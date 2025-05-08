@@ -17,10 +17,11 @@ interface Props {
     }
     isGradientBg?: boolean
   }
+  className?: string
 }
-export default function CTA({ cta }: Props) {
+export default function CTA({ cta, className }: Props) {
   return (
-    <section className='py-20 px-4'>
+    <section className={cn('py-20 px-4', className)}>
       <div
         className={cn('container py-12 sm:py-16 bg-[#0e1420] rounded-lg shadow-sm space-y-6', {
           'bg-gradient-to-r from-[#2563EB33] via-[#9333EA33] to-[#DC262633]': cta?.isGradientBg,

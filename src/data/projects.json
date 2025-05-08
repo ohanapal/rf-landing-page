@@ -14,13 +14,14 @@
       "theChallenge": "The client needed a modern platform that could handle high traffic and provide a seamless shopping experience.",
       "ourSolution": "We developed a responsive web application with a user-friendly interface, optimized for performance and scalability.",
       "gallery": [
-        "/images/projects/1/gallery1.jpg",
-        "/images/projects/1/gallery2.jpg",
-        "/images/projects/1/gallery3.jpg"
+        "/images/projects/1/gallery.png",
+        "/images/projects/1/gallery1.png",
+        "/images/projects/1/gallery2.png"
       ],
       "results": [
         "Increased user engagement by 40%",
         "Reduced cart abandonment rate by 25%",
+        "Achieved a 30% increase in sales within the first month",
         "Achieved a 30% increase in sales within the first month"
       ],
       "quote": {
