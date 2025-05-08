@@ -63,9 +63,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           </div>
         </div>
 
-        <div className='my-24 space-y-5'>
+        <div className='my-12 md:my-24 space-y-5'>
           <h2 className='text-2xl md:text-3xl font-bold'>Gallery</h2>
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+          <div className='grid grid-cols-1 min-[500px]:grid-cols-2 md:grid-cols-3 gap-4'>
             {project.gallery.map((image, index) => (
               <Image
                 key={index}
@@ -93,7 +93,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           </div>
         </div>
 
-        <div className='bg-tartiary p-3 md:p-5 lg:p-8 rounded-md border border-border space-y-6 text-center text-balance mt-24 mb-12'>
+        <div className='bg-tartiary p-3 md:p-5 lg:p-8 rounded-md border border-border space-y-6 text-center text-balance mt-12 md:mt-24 mb-0 md:mb-12'>
           <div className='size-16 rounded-full bg-[#192d50] flex items-center justify-center mx-auto'>
             <Quote className='size-5 text-primary' />
           </div>
