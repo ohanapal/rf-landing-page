@@ -19,7 +19,7 @@ interface Props {
 }
 export default function TeamMember({ member }: Props) {
   return (
-    <div className='rounded-md overflow-hidden border border-white/5 bg-[#111827] relative'>
+    <div className='rounded-md overflow-hidden border border-white/5 bg-tartiary relative'>
       <Image
         src={member.imageUrl}
         alt={member.name}
