@@ -328,7 +328,39 @@
           "title": "Power User"
         }
       }
+    },
+    {
+      "id": 10,
+      "coverImageUrl": "/images/projects/cover/vnp.png",
+      "tags": ["Hotel Management", "Property Auditing", "Revenue Management", "Dashboard", "OTA Integration", "Hospitality"],
+      "title": "VNP Solutions Hotel Management Platform",
+      "description": "VNP Solutions is a comprehensive hotel property management system designed for tracking financial data across multiple online travel agencies (OTAs) including Expedia, Booking.com, and Agoda/Priceline. The platform features a robust dashboard displaying key metrics like collectible revenue ($16,978,083.57), confirmed revenue ($12,476,226.87), total properties (3,223), and audit statistics (3,812 total audits). Users can track property performance, manage audits, view revenue trends, and handle user permissions all from a centralized interface. The system helps hotel management teams reconcile financial data across multiple booking channels and maintain proper audit records for thousands of properties.",
+      "projectUrl": "",
+      "client": "VNP Solutions",
+      "date": "2025",
+      "duration": "Ongoing",
+      "category": "Hospitality Management Software",
+      "theChallenge": "To create a unified platform that consolidates financial data from multiple online travel agencies while providing robust auditing tools for hotel property managers dealing with thousands of properties.",
+      "ourSolution": "We developed an integrated dashboard with real-time revenue tracking, audit management, and performance analytics. The system connects with major OTAs including Expedia Group, Booking.com and Agoda/Priceline, allowing property managers to view comprehensive financial data, audit statuses, and performance metrics in one place.",
+      "gallery": [
+        "/images/projects/gallery/vnp-1.png",
+        "/images/projects/gallery/vnp-2.png",
+        "/images/projects/gallery/vnp-3.png",
+        "/images/projects/gallery/vnp-4.png"
+      ],
+      "results": [
+        "Successfully tracked over $16.9M in collectible revenue and $12.4M in confirmed revenue",
+        "Managed audits for 3,223 properties across multiple hotel groups and portfolios",
+        "Implemented status tracking system with 5,445 status entries for comprehensive monitoring",
+        "Created user management system with role-based access for property managers and portfolio owners"
+      ],
+      "quote": {
+        "text": "VNP Solutions has transformed how we manage our hotel portfolio finances, particularly when reconciling revenue across multiple booking platforms.",
+        "author": {
+          "name": "Admin User",
+          "title": "Hotel Group Manager"
+        }
+      }
     }
-    
   ]
 }
