@@ -1,7 +1,9 @@
 'use client'
+import { contactApi } from '@/app/configs'
 import { BorderBeam } from '@/components/magicui/border-beam'
 import { Button } from '@/components/ui/button'
 import data from '@/data/homepage.json'
+import { Loader2 } from 'lucide-react'
 import { ChangeEvent, useState } from 'react'
 import Heading, { HeadingTitle } from '../common/Heading'
 import InputGroup from './InputGroup'
@@ -9,10 +11,16 @@ import InputGroup from './InputGroup'
 export default function Contact() {
   const { contact } = data
 
-  const [formData, setformData] = useState({
+  const initialFormData = {
     name: '',
     email: '',
-  })
+    subject: '',
+    message: '',
+  }
+
+  const [formData, setformData] = useState(initialFormData)
+
+  const [isLoading, setisLoading] = useState(false)
 
   const handleOnchangeInput = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setformData({
@@ -21,8 +29,22 @@ export default function Contact() {
     })
   }
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    setisLoading(true)
+    try {
+      const response = await fetch(contactApi, {
+        method: 'POST',
+        body: JSON.stringify(formData),
+      })
+
+      console.log(response)
+    } catch (error) {
+      alert((error as Error).message)
+    } finally {
+      setformData(initialFormData)
+      setisLoading(false)
+    }
   }
 
   return (
@@ -62,8 +84,8 @@ export default function Contact() {
           rows={5}
           textareaClassName='resize-none min-h-28'
         />
-        <Button type='submit' className='w-full mt-6'>
-          Send Message
+        <Button type='submit' className='w-full mt-6' disabled={isLoading}>
+          {isLoading ? <Loader2 className='size-4 animate-spin' /> : 'Send Message'}
         </Button>
 
         <BorderBeam duration={8} size={100} />
