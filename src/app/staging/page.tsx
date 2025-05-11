@@ -13,7 +13,7 @@ import data from '@/data/homepage.json'
 export default function StagingPage() {
   const { cta, cta2, cta3, hero } = data
   return (
-    <main>
+    <main className='overflow-x-hidden'>
       <Hero hero={hero} />
       <About />
       <Services />

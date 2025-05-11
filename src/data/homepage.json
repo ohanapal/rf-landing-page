@@ -606,28 +606,18 @@
           },
           {
             "id": 2,
-            "text": "About",
-            "link": "/about"
+            "text": "Projects",
+            "link": "/projects"
           },
           {
             "id": 3,
             "text": "Services",
-            "link": "/services"
+            "link": "services"
           },
           {
             "id": 4,
             "text": "Contact",
-            "link": "/contact"
-          },
-          {
-            "id": 5,
-            "text": "Privacy Policy",
-            "link": "/privacy-policy"
-          },
-          {
-            "id": 6,
-            "text": "Terms of Service",
-            "link": "/terms-of-service"
+            "link": "contact"
           }
         ]
       },
@@ -636,64 +626,15 @@
         "links": [
           {
             "id": 1,
-            "text": "Twitter",
-            "url": "https://twitter.com/rebelforce",
-            "icon": "lucide:twitter"
+            "text": "Facebook",
+            "url": "https://www.facebook.com/rebelforcebd/",
+            "icon": "lucide:facebook"
           },
           {
             "id": 2,
             "text": "LinkedIn",
-            "url": "https://linkedin.com/rebelforce",
+            "url": "https://www.linkedin.com/company/rebel-force-tech-solutions/",
             "icon": "lucide:linkedin"
-          },
-          {
-            "id": 3,
-            "text": "Instagram",
-            "url": "https://instagram.com/rebelforce",
-            "icon": "lucide:instagram"
-          },
-          {
-            "id": 4,
-            "text": "Facebook",
-            "url": "https://facebook.com/rebelforce",
-            "icon": "lucide:facebook"
-          },
-          {
-            "id": 5,
-            "text": "Youtube",
-            "url": "https://youtube.com/rebelforce",
-            "icon": "lucide:youtube"
-          },
-          {
-            "id": 6,
-            "text": "TikTok",
-            "url": "https://tiktok.com/rebelforce",
-            "icon": "lucide:tiktok"
-          }
-        ]
-      },
-      {
-        "type": "Legal",
-        "links": [
-          {
-            "id": 1,
-            "text": "Privacy Policy",
-            "link": "/privacy-policy"
-          },
-          {
-            "id": 2,
-            "text": "Terms of Service",
-            "link": "/terms-of-service"
-          },
-          {
-            "id": 3,
-            "text": "Cookie Policy",
-            "link": "/cookie-policy"
-          },
-          {
-            "id": 4,
-            "text": "GDPR",
-            "link": "/gdpr"
           }
         ]
       }

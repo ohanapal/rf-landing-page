@@ -33,17 +33,20 @@ export default function Contact() {
     e.preventDefault()
     setisLoading(true)
     try {
-      const response = await fetch(contactApi, {
+      await fetch(contactApi, {
         method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify(formData),
       })
-
-      console.log(response)
+      setisLoading(false)
+      alert('Message sent successfully!')
+      setformData(initialFormData)
     } catch (error) {
-      alert((error as Error).message)
-    } finally {
       setformData(initialFormData)
       setisLoading(false)
+      alert((error as Error).message)
     }
   }
 
