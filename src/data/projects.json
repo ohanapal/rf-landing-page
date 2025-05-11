@@ -157,10 +157,10 @@
         "Achieved global outreach with 94,000+ foreign followers and growing daily."
       ],
       "quote": {
-        "text": "It is no exaggeration to say this MasterStudy experience was transformative—both professionally and personally.",
+        "text": "Rebelforce crafted an outstanding, user-friendly platform for Eocene Academy, transforming Bangla learning into an engaging journey with interactive lessons, gamification, and rich cultural storytelling. Their tech expertise shines through flawless functionality and adaptive tools that cater to diaspora children’s unique needs. A visionary partner that blends innovation with heart!",
         "author": {
-          "name": "Linda Green",
-          "title": "Product Manager, Apple Inc"
+          "name": "Alamgir Alam",
+          "title": "Product Manager, Eocene Academy"
         }
       },
       "isPinned": true
@@ -192,10 +192,10 @@
         "Seamless support for both light and dark modes improved accessibility."
       ],
       "quote": {
-        "text": "The flexibility and user-friendliness of Megamind completely transformed how I organize both work and personal tasks.",
+        "text": "Working with Emile and Abrar was a great experience. They work as part of your team to deliver the best product and experience. 'Just enough' just isn't enough for them",
         "author": {
-          "name": "Taylor Kim",
-          "title": "Productivity Coach"
+          "name": "Fares",
+          "title": "CMO, Megamind"
         }
       },
       "isPinned": true
@@ -405,6 +405,162 @@
           "title": "Hotel Group Manager"
         }
       }
+    },
+    {
+      "id": 11,
+      "coverImageUrl": "/images/projects/cover/ai-valet.png",
+      "tags": [
+        "Computer Vision",
+        "Machine Learning",
+        "AI Integration",
+        "Airport",
+        "Transportation",
+        "Vehicle Detection"
+      ],
+      "title": "aiValet",
+      "description": "aiValet is a computer vision-powered system deployed at KLIA2 Airport to streamline the e-hailing experience. It integrates real-time AI services to detect vehicles, read number plates, and display arrival information for passengers. Cameras connected to the barrier system ensure only verified vehicles can enter, while displays and mobile alerts help passengers board their rides quickly and efficiently.",
+      "projectUrl": "",
+      "client": "KLIA2 Airport, Malaysia",
+      "date": "2025",
+      "duration": "4 Months",
+      "category": "Smart Transportation & AI",
+      "theChallenge": "Improve the e-hailing experience at a busy international airport by automating vehicle detection, tracking, and passenger notification using AI and real-time computer vision.",
+      "ourSolution": "We implemented a system where high-definition cameras feed video streams to our AI service that detects vehicles and reads license plates. Data is displayed on large screens and synced to a mobile-friendly web app. Passengers can search for their ride by number plate and receive alerts as the vehicle approaches, reducing congestion and wait times.",
+      "gallery": [
+        "/images/projects/gallery/ai-valet-1.png",
+        "/images/projects/gallery/ai-valet-2.png",
+        "/images/projects/gallery/ai-valet-3.png"
+      ],
+      "results": [
+        "Improved airport e-hailing flow and reduced passenger wait times",
+        "Accurate real-time number plate recognition using AI models",
+        "Seamless barrier integration with computer vision system for vehicle entry validation",
+        "Developed mobile-friendly web view for passengers to track their rides"
+      ],
+      "quote": {
+        "text": "Rebel Force’s professionalism, guidance, and execution in designing and deploying the first-ever LPRS system at KLIA2 has been — and continues to be — deeply appreciated by the taxi operations team. Their flexibility and adaptability were instrumental in ensuring the project ran smoothly, despite the differences in operational culture.",
+        "author": {
+          "name": "Isrul Rais",
+          "title": "KLIA2"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "coverImageUrl": "/images/projects/cover/trade-lens.png",
+      "tags": [
+        "Supply Chain",
+        "Blockchain",
+        "Digital Documentation",
+        "Logistics",
+        "Shipping",
+        "Trade Finance"
+      ],
+      "title": "TradeLens",
+      "description": "TradeLens is a secure, blockchain-powered platform that simplifies and accelerates global trade by digitizing supply chain workflows. With tools for real-time container tracking, digital Bills of Lading, and analytics, it helps importers, exporters, and logistics providers reduce delays, cut costs, and streamline trade operations across the globe.",
+      "projectUrl": "",
+      "client": "TradeLens (IBM & Maersk Initiative)",
+      "date": "2025",
+      "duration": "Ongoing",
+      "category": "Digital Trade & Supply Chain",
+      "theChallenge": "Global supply chains are facing increasing pressure due to disruptions, inefficiencies, and the continued reliance on paper-based processes. The challenge was to create a unified platform that offers real-time data, digital documentation, and transparency for all participants in international trade.",
+      "ourSolution": "We built a blockchain-based platform that brings together carriers, customs, banks, and inland transport providers to enable secure data exchange and digital workflows. TradeLens offers accurate ETAs, end-to-end container tracking, and instant access to critical documents such as digital Bills of Lading. It supports millions of events and documents across global trade lanes, enabling faster, smarter, and more connected supply chain operations.",
+      "gallery": [
+        "/images/projects/gallery/trade-lens-1.png",
+        "/images/projects/gallery/trade-lens-2.png",
+        "/images/projects/gallery/trade-lens-3.png",
+        "/images/projects/gallery/trade-lens-4.png"
+      ],
+      "results": [
+        "Tracked over 3.7 billion shipping events across major global trade lanes",
+        "Processed more than 69 million containers and 36 million documents",
+        "Enabled paperless trade finance transactions using blockchain in Asia Pacific",
+        "Reduced demurrage and detention charges by providing real-time container visibility"
+      ],
+      "quote": {
+        "text": "TradeLens has redefined how we engage in trade—streamlining workflows, increasing transparency, and supporting the shift to paperless global commerce.",
+        "author": {
+          "name": "Diana Jones",
+          "title": "Director of Solution Architecture, TradeLens"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "coverImageUrl": "/images/projects/cover/argobots.png",
+      "tags": [
+        "AI Chatbot",
+        "Lead Generation",
+        "No-Code Automation",
+        "Customer Support",
+        "Sales Enablement",
+        "Multilingual AI"
+      ],
+      "title": "Argobot AI",
+      "description": "Argobot AI (via BLDR) is a no-code AI automation platform that empowers businesses to build smart chat agents in under 5 minutes. With features like multilingual communication (175+ languages), lead capture via forms, HTML component-based product showcases, and automated workflows, it helps convert visitors into buyers, streamline customer support, and enhance sales engagement—all without needing any development experience.",
+      "projectUrl": "",
+      "client": "Argobots",
+      "date": "2025",
+      "duration": "Ongoing",
+      "category": "Conversational AI Platform",
+      "theChallenge": "Businesses required an efficient and accessible way to automate user interactions, capture leads, and deliver multilingual customer support without heavy tech investment.",
+      "ourSolution": "We developed Argobot AI using the BLDR platform, enabling fast chatbot deployment with drag-and-drop workflow creation, real-time insights, support for HTML product showcases, form-based lead capture, and multilingual capability. The system supports custom chat sites and multiple pricing plans to fit companies of all sizes.",
+      "gallery": [
+        "/images/projects/gallery/argobots-1.png",
+        "/images/projects/gallery/argobots-2.png",
+        "/images/projects/gallery/argobots-3.png"
+      ],
+      "results": [
+        "Deployed AI bots for thousands of businesses across multiple industries",
+        "Improved lead conversion and customer engagement using automated workflows",
+        "Enabled multilingual support across over 175 languages",
+        "Offered scalable pricing tiers including free, pro, and enterprise packages"
+      ],
+      "quote": {
+        "text": "Argobot AI has revolutionized our sales process. We have seen a significant increase in conversions and revenue.",
+        "author": {
+          "name": "Mike Johnson",
+          "title": "COO at Company"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "coverImageUrl": "/images/projects/cover/owlx.png",
+      "tags": [
+        "AI Security",
+        "Emergency Response",
+        "Drone Technology",
+        "Threat Detection",
+        "Cyber Security",
+        "Smart City"
+      ],
+      "title": "OwlX – AI-Driven Security & Emergency Response",
+      "description": "OwlX is a sovereign, AI-powered security and emergency response platform designed to address rising threats and emergency needs in Saudi Arabia. Featuring multi-sensor fusion, real-time AI analysis, and integration with national systems like Absher and Najm, OwlX enables fast and secure incident detection, reporting, and response. With a secure air-gapped architecture and modular drone compatibility, it aligns with Vision 2030 for digital transformation and national resilience.",
+      "projectUrl": "",
+      "client": "OwlX (Saudi Confidential Security Sector)",
+      "date": "2025",
+      "duration": "Ongoing",
+      "category": "AI Security Platform",
+      "theChallenge": "Saudi Arabia faced increasing security threats, delayed emergency responses, and a strong need for sovereign, secure systems that could operate independently from foreign infrastructure.",
+      "ourSolution": "We built OwlX as an AI-driven, air-gapped emergency response and security platform. The system features a mission control dashboard powered by multi-sensor fusion, real-time threat detection, and encrypted data channels. OwlX supports national integrations like Absher and Najm and is deployable via drones for rapid and flexible field operations.",
+      "gallery": [
+        "/images/projects/gallery/owlx-1.png"
+      ],
+      "results": [
+        "Achieved a 40% reduction in response times during real-world deployments",
+        "Improved surveillance and security enforcement across critical infrastructure",
+        "Integrated with Absher and Najm for national-level reporting and coordination",
+        "Enhanced operational sovereignty through an air-gapped architecture and AI-core unit"
+      ],
+      "quote": {
+        "text": "Rebel Force's ingenuity, problem-solving capabilities, and creative approach in the custom development of an AI analysis prototype for drone deployment exceeded expectations. Their ability to transform complex challenges into a fully functional solution demonstrated not only technical excellence but also a rare adaptability under pressure.",
+        "author": {
+          "name": "Abdel Mohsen",
+          "title": "OwlX"
+        }
+      }
     }
+
   ]
 }
