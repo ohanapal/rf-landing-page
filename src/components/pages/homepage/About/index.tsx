@@ -1,7 +1,8 @@
+'use client'
 import { MagicCard } from '@/components/magicui/magic-card'
 import { Button } from '@/components/ui/button'
 import data from '@/data/homepage.json'
-import Link from 'next/link'
+import { Link as ScrollLink } from 'react-scroll'
 import Heading, { HeadingTitle } from '../common/Heading'
 import AboutCardItem from './AboutCardItem'
 
@@ -23,9 +24,9 @@ export default function About() {
             </p>
           ))}
 
-          <Link href={about.learnMoreBtn.link}>
+          <ScrollLink to={about.learnMoreBtn.link} spy={true} smooth={true} offset={-70} duration={500}>
             <Button>{about.learnMoreBtn.text}</Button>
-          </Link>
+          </ScrollLink>
         </div>
 
         <MagicCard className='rounded-md backdrop-blur-3xl max-w-2xl mx-auto order-1 lg:order-2 lg:mx-0'>

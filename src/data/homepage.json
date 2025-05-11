@@ -7,11 +7,11 @@
     "description": "We help forward-thinking businesses leverage technology to gain a competitive edge, increase efficiency, and drive growth.",
     "scheduleBtn": {
       "text": "Schedule a Consultation",
-      "link": "/contact"
+      "link": "https://calendly.com/abraranwar09"
     },
     "exploreBtn": {
       "text": "Explore Services",
-      "link": "/services"
+      "link": "services"
     },
     "heroImgUrl": "/images/homepage/hero/hero.jpg"
   },
@@ -100,7 +100,7 @@
     ],
     "learnMoreBtn": {
       "text": "Learn More",
-      "link": "/about"
+      "link": "services"
     }
   },
   "services": {
@@ -225,11 +225,11 @@
     "description": "Our expert team can help you implement cutting-edge technology solutions that drive real results.",
     "btn1": {
       "text": "View Our Projects",
-      "link": "/projects"
+      "link": "projects"
     },
     "btn2": {
       "text": "Contact Us",
-      "link": "/contact"
+      "link": "contact"
     }
   },
   "projects": {
@@ -440,7 +440,7 @@
     "description": "Our expert team can help you implement cutting-edge technology solutions that drive real results.",
     "btn1": {
       "text": "Meet Our Team",
-      "link": "/team"
+      "link": "team"
     }
   },
   "team": {
@@ -584,11 +584,11 @@
     "description": "Schedule a free consultation to discuss how we can help you achieve your business goals.",
     "btn1": {
       "text": "Get Started",
-      "link": "/contact"
+      "link": "contact"
     },
     "btn2": {
       "text": "View Services",
-      "link": "/services"
+      "link": "services"
     },
     "isGradientBg": true
   },

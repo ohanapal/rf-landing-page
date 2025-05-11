@@ -1,6 +1,5 @@
 'use client'
 import logoDark from '@/assets/logo/logo-dark.png'
-import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { AlignRight } from 'lucide-react'
 import Image from 'next/image'
@@ -89,10 +88,10 @@ export default function TopNav({ setIsOpen }: Props) {
         </ul>
 
         <div className='flex items-center gap-4'>
-          <div className='hidden md:flex items-center gap-4'>
+          {/* <div className='hidden md:flex items-center gap-4'>
             <Button variant='outline'>Login</Button>
             <Button>Sign Up</Button>
-          </div>
+          </div> */}
 
           <AlignRight className='w-6 h-6 md:hidden cursor-pointer' onClick={() => setIsOpen(true)} />
         </div>

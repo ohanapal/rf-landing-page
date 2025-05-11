@@ -3,7 +3,7 @@ import { RainbowButton } from '@/components/magicui/rainbow-button'
 import { BackgroundBeamsWithCollision } from '@/components/ui/background-beams-with-collision'
 import { motion } from 'motion/react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link as ScrollLink } from 'react-scroll'
 import Stripes from './Stripes'
 
 interface Props {
@@ -89,14 +89,14 @@ export default function Hero({ hero }: Props) {
                 ease: 'easeInOut',
               }}
             >
-              <Link href={hero.scheduleBtn.link}>
+              <a href={hero.scheduleBtn.link} target='_blank' rel='noopener noreferrer'>
                 <RainbowButton variant='custom' className='bg-primary text-white'>
                   {hero.scheduleBtn.text}
                 </RainbowButton>
-              </Link>
-              <Link href={hero.exploreBtn.link}>
+              </a>
+              <ScrollLink to={hero.exploreBtn.link} spy={true} smooth={true} offset={-70} duration={500}>
                 <RainbowButton>{hero.exploreBtn.text}</RainbowButton>
-              </Link>
+              </ScrollLink>
             </motion.div>
           </motion.div>
         </BackgroundBeamsWithCollision>

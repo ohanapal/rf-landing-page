@@ -1,7 +1,8 @@
+'use client'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { ArrowRight } from 'lucide-react'
-import Link from 'next/link'
+import { Link as ScrollLink } from 'react-scroll'
 
 interface Props {
   cta: {
@@ -32,16 +33,16 @@ export default function CTA({ cta, className }: Props) {
           <p className='text-muted-foreground'>{cta.description}</p>
         </div>
         <div className='flex flex-wrap items-center justify-center gap-4'>
-          <Link href={cta.btn1.link}>
+          <ScrollLink to={cta.btn1.link} spy={true} smooth={true} offset={-70} duration={500}>
             <Button className='flex items-center gap-x-2'>
               {cta.btn1.text}
               <ArrowRight className='size-4' />
             </Button>
-          </Link>
+          </ScrollLink>
           {cta?.btn2?.link && (
-            <Link href={cta.btn2.link}>
+            <ScrollLink to={cta.btn2.link} spy={true} smooth={true} offset={-70} duration={500}>
               <Button variant='outline'>{cta.btn2.text}</Button>
-            </Link>
+            </ScrollLink>
           )}
         </div>
       </div>

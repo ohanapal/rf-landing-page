@@ -1,17 +1,17 @@
+import { IProject } from '@/app/projects/[id]/page'
 import { Button } from '@/components/ui/button'
 import data from '@/data/homepage.json'
+import projectsData from '@/data/projects.json'
 import Link from 'next/link'
 import Heading, { HeadingTitle } from '../common/Heading'
 import ProjectCard from './ProjectCard'
-import projectsData from '@/data/projects.json'
-import { IProject } from '@/app/projects/[id]/page'
 
 export default function Projects() {
   const { projects } = data
   const { projects: allProjects } = projectsData
   const pinnedProjects = allProjects.filter((project: IProject) => project.isPinned)
   return (
-    <section className='pb-24 pt-16'>
+    <section id='projects' className='pb-24 pt-16'>
       <div className='container'>
         <Heading title={projects.title as HeadingTitle[]} description={projects.description} />
       </div>
