@@ -517,33 +517,55 @@
       {
         "id": 1,
         "starCount": 5,
-        "text": "Rebel Force delivered a solution that increased our operational efficiency by 47% and reduced costs by 31% in just three months.",
-        "credits": "47% efficiency increase",
+        "text": "Rebel Force’s professionalism, guidance, and execution in designing and deploying the first-ever LPRS system at KLIA2 has been — and continues to be — deeply appreciated by the taxi operations team. Their flexibility and adaptability were instrumental in ensuring the project ran smoothly, despite the differences in operational culture.",
+        "credits": "Isrul Rais, KLIA2",
         "author": {
-          "name": "Mon Monthma",
-          "title": "Alliance Industries",
+          "name": "Isrul Rais",
+          "title": "KLIA2",
           "imageUrl": "/images/homepage/testimonials/placeholder.png"
         }
       },
       {
         "id": 2,
         "starCount": 5,
-        "text": "Rebel Force delivered a solution that increased our operational efficiency by 47% and reduced costs by 31% in just three months.",
-        "credits": "47% efficiency increase",
+        "text": "Rebel Force’s ingenuity, problem-solving capabilities, and creative approach in the custom development of an AI analysis prototype for drone deployment exceeded expectations. Their ability to transform complex challenges into a fully functional solution demonstrated not only technical excellence but also a rare adaptability under pressure. Stakeholders from the confidential defence sector were thoroughly impressed with the delivery and vision shown throughout the project.",
+        "credits": "Abdel Mohsen, OWL-X",
         "author": {
-          "name": "Mon Monthma",
-          "title": "Alliance Industries",
+          "name": "Abdel Mohsen",
+          "title": "OWL-X",
           "imageUrl": "/images/homepage/testimonials/placeholder.png"
         }
       },
       {
         "id": 3,
         "starCount": 5,
-        "text": "Rebel Force delivered a solution that increased our operational efficiency by 47% and reduced costs by 31% in just three months.",
-        "credits": "47% efficiency increase",
+        "text": "Rebel Force has been my go-to team across several high-stakes projects — and for good reason. Their communication is seamless, their flexibility is unmatched, and there hasn’t been a single challenge they couldn’t tackle. They think fast, move smart, and always find a way to deliver. Whether it’s creative solutions, technical execution, or just getting things done, they’re a one-stop shop that’s worth every cent. I’ll keep coming back.",
+        "credits": "Nabil Dijani, PGG",
         "author": {
-          "name": "Mon Monthma",
-          "title": "Alliance Industries",
+          "name": "Nabil Dijani",
+          "title": "PGG",
+          "imageUrl": "/images/homepage/testimonials/placeholder.png"
+        }
+      },
+      {
+        "id": 4,
+        "starCount": 5,
+        "text": "Working with Emile and Abrar was a great experience. They work as part of your team to deliver the best product and experience. 'Just enough' just isn't enough for them.",
+        "credits": "Fares, Megamind",
+        "author": {
+          "name": "Fares",
+          "title": "Megamind",
+          "imageUrl": "/images/homepage/testimonials/placeholder.png"
+        }
+      },
+      {
+        "id": 5,
+        "starCount": 5,
+        "text": "Rebelforce crafted an outstanding, user-friendly platform for Eocene Academy, transforming Bangla learning into an engaging journey with interactive lessons, gamification, and rich cultural storytelling. Their tech expertise shines through flawless functionality and adaptive tools that cater to diaspora children’s unique needs. A visionary partner that blends innovation with heart!",
+        "credits": "Alamgir Alam, Eocene",
+        "author": {
+          "name": "Alamgir Alam",
+          "title": "Eocene",
           "imageUrl": "/images/homepage/testimonials/placeholder.png"
         }
       }

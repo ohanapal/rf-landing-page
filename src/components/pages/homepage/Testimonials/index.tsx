@@ -2,7 +2,6 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNavigation } from '@/components/ui/carousel'
 import data from '@/data/homepage.json'
 import { Star } from 'lucide-react'
-import Image from 'next/image'
 import Heading, { HeadingTitle } from '../common/Heading'
 
 export default function Testimonials() {
@@ -29,15 +28,15 @@ export default function Testimonials() {
                   <p className='text-lg sm:text-2xl text-balance text-center'>{`"${testimonial.text}"`}</p>
 
                   <div className='flex items-center gap-x-3'>
-                    <Image
+                    {/* <Image
                       src={testimonial.author.imageUrl}
                       alt={testimonial.author.name}
                       width={48}
                       height={48}
                       className='size-10 sm:size-12 rounded-full border-2 border-primary'
-                    />
+                    /> */}
 
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col text-center items-center justify-center'>
                       <p className='text-base sm:text-lg font-bold'>{testimonial.author.name}</p>
                       <p className='text-primary text-sm sm:text-base'>{testimonial.author.title}</p>
                     </div>

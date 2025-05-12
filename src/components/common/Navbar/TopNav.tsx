@@ -11,6 +11,29 @@ interface Props {
   setIsOpen: Dispatch<SetStateAction<boolean>>
 }
 
+export const navLinks = [
+  {
+    label: 'Home',
+    href: 'home',
+  },
+  {
+    label: 'About',
+    href: 'about',
+  },
+  {
+    label: 'Services',
+    href: 'services',
+  },
+  {
+    label: 'Projects',
+    href: 'projects',
+  },
+  {
+    label: 'Contact',
+    href: 'contact',
+  },
+]
+
 export default function TopNav({ setIsOpen }: Props) {
   const [isScrolled, setIsScrolled] = useState(false)
 
@@ -46,55 +69,25 @@ export default function TopNav({ setIsOpen }: Props) {
         </Link>
 
         <ul className='hidden items-center gap-4 md:flex'>
-          <li>
-            <ScrollLink
-              to='home'
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className='cursor-pointer hover:text-primary transition-colors'
-              activeClass='text-primary font-medium'
-            >
-              Home
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink
-              to='about'
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className='cursor-pointer hover:text-primary transition-colors'
-              activeClass='text-primary font-medium'
-            >
-              About
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink
-              to='contact'
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              className='cursor-pointer hover:text-primary transition-colors'
-              activeClass='text-primary font-medium'
-            >
-              Contact
-            </ScrollLink>
-          </li>
+          {navLinks.map((link) => (
+            <li key={link.href}>
+              <ScrollLink
+                to={link.href}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className='cursor-pointer hover:text-primary transition-colors'
+                activeClass='text-primary font-medium'
+              >
+                {link.label}
+              </ScrollLink>
+            </li>
+          ))}
         </ul>
 
-        <div className='flex items-center gap-4'>
-          {/* <div className='hidden md:flex items-center gap-4'>
-            <Button variant='outline'>Login</Button>
-            <Button>Sign Up</Button>
-          </div> */}
-
-          <AlignRight className='w-6 h-6 md:hidden cursor-pointer' onClick={() => setIsOpen(true)} />
-        </div>
+        <div className={cn('w-32 hidden md:block', { 'hidden md:hidden': isScrolled })} />
+        <AlignRight className='w-6 h-6 md:hidden cursor-pointer' onClick={() => setIsOpen(true)} />
       </div>
     </nav>
   )
