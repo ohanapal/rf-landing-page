@@ -14,7 +14,7 @@ export default function ProjectHeader({ project }: { project: IProject }) {
       <div className='absolute inset-0 flex flex-col justify-end p-8 text-white container'>
         <div>
           {project?.tags && (
-            <div className='flex gap-2 mb-2'>
+            <div className='flex flex-wrap gap-2 mb-2'>
               {project.tags.map((tag, index) => (
                 <span
                   key={index}
@@ -26,7 +26,7 @@ export default function ProjectHeader({ project }: { project: IProject }) {
             </div>
           )}
           <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold pb-3'>{project?.title}</h1>
-          <p className='text-xl'>{project?.description}</p>
+          <p className='text-sm md:text-base lg:text-xl'>{project?.description}</p>
         </div>
       </div>
     </div>
