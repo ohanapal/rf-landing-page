@@ -31,7 +31,7 @@ export default function ProjectCard({ project }: Props) {
         <div className='p-4 flex flex-col flex-1'>
           <div className='flex-1'>
             <div className='flex items-center gap-2 flex-wrap'>
-              {project.tags.map((tag) => (
+              {project.tags.slice(0, 3).map((tag) => (
                 <div key={tag} className='text-[#60A5FA] bg-[#15233c] px-2 py-1 rounded-full text-xs font-medium'>
                   {tag}
                 </div>
