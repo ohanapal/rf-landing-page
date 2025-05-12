@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils'
 import { AlignRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname, useRouter } from 'next/navigation'
 import { Dispatch, SetStateAction, useEffect, useState } from 'react'
 import { Link as ScrollLink } from 'react-scroll'
 
@@ -37,6 +38,9 @@ export const navLinks = [
 
 export default function TopNav({ setIsOpen }: Props) {
   const [isScrolled, setIsScrolled] = useState(false)
+  const pathname = usePathname()
+  const router = useRouter()
+  const isHomePage = pathname === '/'
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,6 +55,30 @@ export default function TopNav({ setIsOpen }: Props) {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
+
+  // Handle hash navigation with smooth scrolling when on homepage
+  useEffect(() => {
+    if (isHomePage && window.location.hash) {
+      const id = window.location.hash.substring(1)
+      const element = document.getElementById(id)
+
+      if (element) {
+        setTimeout(() => {
+          window.scrollTo({
+            top: element.offsetTop - 80, // Adjust offset as needed
+            behavior: 'smooth',
+          })
+        }, 100)
+      }
+    }
+  }, [isHomePage, pathname])
+
+  const handleNavClick = (href: string) => {
+    if (!isHomePage) {
+      router.push(`/#${href}`)
+    }
+  }
+
   return (
     <nav
       className={cn('fixed top-0 left-0 right-0 z-50 h-16 transition-all duration-500 delay-100', {
@@ -72,17 +100,30 @@ export default function TopNav({ setIsOpen }: Props) {
         <ul className='hidden items-center gap-4 md:flex'>
           {navLinks.map((link) => (
             <li key={link.href}>
-              <ScrollLink
-                to={link.href}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className='cursor-pointer hover:text-primary transition-colors'
-                activeClass='text-primary font-medium'
-              >
-                {link.label}
-              </ScrollLink>
+              {isHomePage ? (
+                <ScrollLink
+                  to={link.href}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className='cursor-pointer hover:text-primary transition-colors'
+                  activeClass='text-primary font-medium'
+                >
+                  {link.label}
+                </ScrollLink>
+              ) : (
+                <Link
+                  href={`/#${link.href}`}
+                  className='cursor-pointer hover:text-primary transition-colors'
+                  onClick={(e) => {
+                    e.preventDefault()
+                    handleNavClick(link.href)
+                  }}
+                >
+                  {link.label}
+                </Link>
+              )}
             </li>
           ))}
         </ul>

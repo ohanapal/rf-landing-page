@@ -125,11 +125,11 @@
           "title": "AI & ML",
           "description": "We offer AI and ML solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
-            "Custom CMS Development",
-            "E-commerce Solutions",
-            "Content Management",
-            "User Management",
-            "Reporting and Analytics"
+            "Predictive Analytics & Forecasting",
+            "Natural Language Processing (NLP)",
+            "Computer Vision Applications",
+            "AI Chatbots & Virtual Assistants",
+            "Machine Learning Model Development"
           ]
         }
       },
@@ -142,11 +142,11 @@
           "title": "Platforms",
           "description": "We offer mobile and web platforms that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
-            "Custom CMS Development",
-            "E-commerce Solutions",
-            "Content Management",
-            "User Management",
-            "Reporting and Analytics"
+            "Cross-Platform App Development",
+            "Progressive Web Apps (PWA)",
+            "Scalable Web Portals",
+            "Custom SaaS Platforms",
+            "API-Driven Architecture"
           ]
         }
       },
@@ -159,11 +159,11 @@
           "title": "Infrastructure",
           "description": "We offer infrastructure solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
-            "Custom CMS Development",
-            "E-commerce Solutions",
-            "Content Management",
-            "User Management",
-            "Reporting and Analytics"
+            "Cloud Infrastructure Setup (AWS, GCP, Azure)",
+            "CI/CD Pipelines & DevOps",
+            "Containerization with Docker & Kubernetes",
+            "Monitoring & Logging Systems",
+            "Infrastructure as Code (IaC)"
           ]
         }
       },
@@ -176,11 +176,11 @@
           "title": "User Experience",
           "description": "We offer user interfaces and user experiences that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
-            "Custom CMS Development",
-            "E-commerce Solutions",
-            "Content Management",
-            "User Management",
-            "Reporting and Analytics"
+            "UX Research & User Journey Mapping",
+            "UI/UX Design Systems",
+            "Responsive Web Design",
+            "Accessibility & Usability Testing",
+            "Prototyping & Wireframing"
           ]
         }
       },
@@ -194,10 +194,10 @@
           "description": "We offer comprehensive CMS solutions that streamline digital content management, utilizing platforms like WordPress, Shopify, Magento, and OpenCart.",
           "listItems": [
             "Custom CMS Development",
-            "E-commerce Solutions",
-            "Content Management",
-            "User Management",
-            "Reporting and Analytics"
+            "Plugin & Theme Customization",
+            "Headless CMS Integration",
+            "Multi-language & Localization",
+            "SEO & Performance Optimization"
           ]
         }
       }

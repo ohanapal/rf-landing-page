@@ -3,7 +3,8 @@ import { cn } from '@/lib/utils'
 import { X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Dispatch, SetStateAction } from 'react'
+import { usePathname, useRouter } from 'next/navigation'
+import { Dispatch, SetStateAction, useEffect } from 'react'
 import { Link as ScrollLink } from 'react-scroll'
 import { navLinks } from './TopNav'
 
@@ -13,6 +14,34 @@ interface Props {
 }
 
 export default function MobileNav({ isOpen, setIsOpen }: Props) {
+  const pathname = usePathname()
+  const router = useRouter()
+  const isHomePage = pathname === '/'
+
+  // Handle hash navigation with smooth scrolling when on homepage
+  useEffect(() => {
+    if (isHomePage && window.location.hash) {
+      const id = window.location.hash.substring(1)
+      const element = document.getElementById(id)
+
+      if (element) {
+        setTimeout(() => {
+          window.scrollTo({
+            top: element.offsetTop - 80, // Adjust offset as needed
+            behavior: 'smooth',
+          })
+        }, 100)
+      }
+    }
+  }, [isHomePage, pathname])
+
+  const handleNavClick = (href: string) => {
+    setIsOpen(false)
+    if (!isHomePage) {
+      router.push(`/#${href}`)
+    }
+  }
+
   return (
     <nav
       className={cn(
@@ -32,18 +61,31 @@ export default function MobileNav({ isOpen, setIsOpen }: Props) {
         <ul className='space-y-6 text-center mt-8'>
           {navLinks.map((link) => (
             <li key={link.href}>
-              <ScrollLink
-                to={link.href}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className='cursor-pointer hover:text-primary transition-colors'
-                activeClass='text-primary font-medium'
-                onClick={() => setIsOpen(false)}
-              >
-                {link.label}
-              </ScrollLink>
+              {isHomePage ? (
+                <ScrollLink
+                  to={link.href}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className='cursor-pointer hover:text-primary transition-colors'
+                  activeClass='text-primary font-medium'
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.label}
+                </ScrollLink>
+              ) : (
+                <Link
+                  href={`/#${link.href}`}
+                  className='cursor-pointer hover:text-primary transition-colors'
+                  onClick={(e) => {
+                    e.preventDefault()
+                    handleNavClick(link.href)
+                  }}
+                >
+                  {link.label}
+                </Link>
+              )}
             </li>
           ))}
         </ul>

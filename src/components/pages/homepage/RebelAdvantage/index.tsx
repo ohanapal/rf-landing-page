@@ -6,7 +6,7 @@ import Heading, { HeadingTitle } from '../common/Heading'
 export default function RebelAdvantage() {
   const { rebelAdvantage } = data
   return (
-    <section className='pb-24 pt-16 container'>
+    <section id='rebeladvantage' className='pb-24 pt-16 container'>
       <Heading title={rebelAdvantage.title as HeadingTitle[]} description={rebelAdvantage.description} />
       <div className='grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-8 items-center'>
         <Image
