@@ -1,6 +1,150 @@
 {
   "projects": [
     {
+      "id": 3,
+      "coverImageUrl": "/images/projects/cover/actively.png",
+      "tags": [
+        "AI",
+        "travel",
+        "machine learning",
+        "personalization",
+        "itinerary",
+        "real-time data",
+        "collaboration",
+        "trip planning"
+      ],
+      "title": "AI Trip Planner",
+      "description": "A smart travel planning app that uses AI to generate personalized itineraries based on user preferences, real-time insights, and collaborative input. The system supports both natural language and structured prompts, making it flexible and intuitive for diverse travel needs.",
+      "projectUrl": "N/A",
+      "client": "Youseff Jalloul",
+      "date": "2022-2023",
+      "duration": "8 months",
+      "category": "Web & Mobile",
+      "theChallenge": "Travelers often struggle to plan customized itineraries that suit their unique needs, preferences, and constraints. Existing tools lack real-time updates, collaborative features, and intelligent recommendations based on evolving preferences.",
+      "ourSolution": "We developed an AI-powered trip planner that dynamically creates and adapts itineraries by analyzing user inputs through text and form prompts. It integrates real-time weather, traffic, and event data, and provides highly personalized suggestions for activities, lodging, and dining. Collaborative features enable group planning and cross-device syncing for a seamless user experience.",
+      "gallery": [
+        "/images/projects/gallery/actively-1.png",
+        "/images/projects/gallery/actively-2.png",
+        "/images/projects/gallery/actively-3.png",
+        "/images/projects/gallery/actively-4.png"
+      ],
+      "results": [
+        "Generated over 10,000 personalized itineraries with a 92% user satisfaction rate.",
+        "Reduced average planning time by 60% through prompt-based AI interaction.",
+        "Improved itinerary accuracy and relevance using machine learning feedback loops.",
+        "Enabled seamless group travel planning with multi-device synchronization."
+      ],
+      "quote": {
+        "text": "The AI Trip Planner completely transformed how I plan travel—it's like having a travel agent who knows me better each time I use it.",
+        "author": {
+          "name": "Amira Khan",
+          "title": "Frequent Traveler & Beta Tester"
+        }
+      },
+      "isPinned": true
+    },
+    {
+      "id": 5,
+      "coverImageUrl": "/images/projects/cover/megamind.png",
+      "tags": ["notes", "productivity", "task management", "checklists", "UX", "personalization", "mobile"],
+      "title": "Megamind",
+      "description": "Megamind is a beautifully designed note-taking and organization app with advanced features like tagging, theming, tables, and checklists. It's built for people who want clarity, flexibility, and control in managing their notes and tasks.",
+      "projectUrl": "N/A",
+      "client": "N/A",
+      "date": "2024",
+      "duration": "6 months",
+      "category": "Mobile",
+      "theChallenge": "Creating an intuitive yet powerful note app that allows deep customization while remaining accessible to new users.",
+      "ourSolution": "We developed Megamind with a clean interface and powerful tools like tag-based organization, table support, rich text editing, and theme customization. This enables users to tailor the experience to their preferences and needs.",
+      "gallery": [
+        "/images/projects/gallery/megamind-1.png",
+        "/images/projects/gallery/megamind-2.png",
+        "/images/projects/gallery/megamind-3.png",
+        "/images/projects/gallery/megamind-4.png",
+        "/images/projects/gallery/megamind-5.png"
+      ],
+      "results": [
+        "Improved user retention through personalized themes and intuitive UI.",
+        "Boosted productivity with tagging, structured lists, and note templates.",
+        "Positive user feedback on flexibility and ease of use.",
+        "Seamless support for both light and dark modes improved accessibility."
+      ],
+      "quote": {
+        "text": "Working with Emile and Abrar was a great experience. They work as part of your team to deliver the best product and experience. 'Just enough' just isn't enough for them",
+        "author": {
+          "name": "Fares",
+          "title": "CMO, Megamind"
+        }
+      },
+      "isPinned": true
+    },
+    {
+      "id": 8,
+      "coverImageUrl": "/images/projects/cover/quickt.png",
+      "tags": ["money transfer", "remittance", "mobile app", "instant delivery", "Australia", "Lebanon", "web app"],
+      "title": "QuickT - Instant Money Transfer to Lebanon",
+      "description": "QuickT is a web and mobile application that enables users in Australia to send money instantly to recipients in Lebanon. The platform supports preset and custom transfer amounts and ensures instant delivery through over 600 Whish locations in Lebanon. Designed for ease of use, QuickT offers a seamless experience across desktop and mobile platforms. The service is compliant with Australian regulations and supports cash payouts. Transfers are made using a secure and streamlined online process. The app link is: https://www.quickt.com.au.",
+      "projectUrl": "https://www.quickt.com.au",
+      "client": "QuickT",
+      "date": "2024",
+      "duration": "8 months",
+      "category": "Web",
+      "theChallenge": "To create a fast, secure, and user-friendly platform for sending money from Australia to Lebanon with instant delivery and mobile accessibility.",
+      "ourSolution": "We developed a responsive web and mobile application that facilitates instant remittance services. The platform includes a user-friendly UI for custom or preset amounts, secure online transactions, and seamless integration with 600+ pickup locations in Lebanon.",
+      "gallery": [
+        "/images/projects/gallery/quickt-1.png",
+        "/images/projects/gallery/quickt-2.png",
+        "/images/projects/gallery/quickt-3.png",
+        "/images/projects/gallery/quickt-4.png"
+      ],
+      "results": [
+        "Launched a compliant and fully operational money transfer platform.",
+        "Enabled instant cash delivery to over 600 Whish locations in Lebanon.",
+        "Improved user experience with mobile-first design and quick onboarding.",
+        "Established QuickT as a trusted solution for remittances from Australia to Lebanon."
+      ],
+      "quote": {
+        "text": "QuickT made sending money to my family effortless and fast. I love how quick and simple the whole process is.",
+        "author": {
+          "name": "Samir Khoury",
+          "title": "Happy Customer"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "coverImageUrl": "/images/projects/cover/yellow.png",
+      "tags": ["fashion", "e-commerce", "product configurator", "dynamic pricing", "customization", "web app"],
+      "title": "Yellow Custom Shirt",
+      "description": "The Yellow Custom Shirt web app offers a seamless and interactive experience for customizing shirts. Users can modify attributes such as sleeves, collar, cuff, pocket, placket, back, bottom, and embroidery with real-time image rendering and dynamic pricing. Each selection instantly updates the visual shirt model and pricing based on predefined values. Admins can define all shirt configuration options, including fabrics and their color variations. The web interface is intuitive and clean, ensuring users can quickly navigate between customization steps. Originally priced at BDT 3,495, a customized shirt is available for BDT 2,000. The app link is: https://customfit.yellowclothing.net/custom-shirt.",
+      "projectUrl": "https://customfit.yellowclothing.net/custom-shirt",
+      "client": "Yellow",
+      "date": "2024",
+      "duration": "3 months",
+      "category": "Web",
+      "theChallenge": "To build a highly customizable and visually interactive shirt configuration platform that updates shirt visuals and pricing in real time.",
+      "ourSolution": "We developed a dynamic product configurator using a modular architecture that allows full admin control over shirt parts, fabrics, colors, and pricing. Live 3D rendering enhances the user experience and enables instant feedback as customers customize their shirts.",
+      "gallery": [
+        "/images/projects/gallery/yellow-1.png",
+        "/images/projects/gallery/yellow-2.png",
+        "/images/projects/gallery/yellow-3.png",
+        "/images/projects/gallery/yellow-4.png"
+      ],
+      "results": [
+        "Successfully launched a visual shirt customization platform.",
+        "Achieved smooth dynamic image and pricing updates.",
+        "Empowered the admin with complete backend control over fabrics, styles, and prices.",
+        "Boosted customer engagement by offering a tailored shopping experience."
+      ],
+      "quote": {
+        "text": "The real-time customization is a game-changer. I loved being able to see my shirt come to life as I made changes.",
+        "author": {
+          "name": "Rahim Uddin",
+          "title": "Happy Customer"
+        }
+      }
+    },
+    {
       "id": 1,
       "coverImageUrl": "/images/projects/cover/dt-global.png",
       "tags": [
@@ -88,49 +232,7 @@
       },
       "isPinned": true
     },
-    {
-      "id": 3,
-      "coverImageUrl": "/images/projects/cover/actively.png",
-      "tags": [
-        "AI",
-        "travel",
-        "machine learning",
-        "personalization",
-        "itinerary",
-        "real-time data",
-        "collaboration",
-        "trip planning"
-      ],
-      "title": "AI Trip Planner",
-      "description": "A smart travel planning app that uses AI to generate personalized itineraries based on user preferences, real-time insights, and collaborative input. The system supports both natural language and structured prompts, making it flexible and intuitive for diverse travel needs.",
-      "projectUrl": "N/A",
-      "client": "Youseff Jalloul",
-      "date": "2022-2023",
-      "duration": "8 months",
-      "category": "Web & Mobile",
-      "theChallenge": "Travelers often struggle to plan customized itineraries that suit their unique needs, preferences, and constraints. Existing tools lack real-time updates, collaborative features, and intelligent recommendations based on evolving preferences.",
-      "ourSolution": "We developed an AI-powered trip planner that dynamically creates and adapts itineraries by analyzing user inputs through text and form prompts. It integrates real-time weather, traffic, and event data, and provides highly personalized suggestions for activities, lodging, and dining. Collaborative features enable group planning and cross-device syncing for a seamless user experience.",
-      "gallery": [
-        "/images/projects/gallery/actively-1.png",
-        "/images/projects/gallery/actively-2.png",
-        "/images/projects/gallery/actively-3.png",
-        "/images/projects/gallery/actively-4.png"
-      ],
-      "results": [
-        "Generated over 10,000 personalized itineraries with a 92% user satisfaction rate.",
-        "Reduced average planning time by 60% through prompt-based AI interaction.",
-        "Improved itinerary accuracy and relevance using machine learning feedback loops.",
-        "Enabled seamless group travel planning with multi-device synchronization."
-      ],
-      "quote": {
-        "text": "The AI Trip Planner completely transformed how I plan travel—it's like having a travel agent who knows me better each time I use it.",
-        "author": {
-          "name": "Amira Khan",
-          "title": "Frequent Traveler & Beta Tester"
-        }
-      },
-      "isPinned": true
-    },
+
     {
       "id": 4,
       "coverImageUrl": "/images/projects/cover/eocene.png",
@@ -166,39 +268,44 @@
       "isPinned": true
     },
     {
-      "id": 5,
-      "coverImageUrl": "/images/projects/cover/megamind.png",
-      "tags": ["notes", "productivity", "task management", "checklists", "UX", "personalization", "mobile"],
-      "title": "Megamind",
-      "description": "Megamind is a beautifully designed note-taking and organization app with advanced features like tagging, theming, tables, and checklists. It's built for people who want clarity, flexibility, and control in managing their notes and tasks.",
+      "id": 10,
+      "coverImageUrl": "/images/projects/cover/vnp.png",
+      "tags": [
+        "Hotel Management",
+        "Property Auditing",
+        "Revenue Management",
+        "Dashboard",
+        "OTA Integration",
+        "Hospitality"
+      ],
+      "title": "VNP Solutions Hotel Management Platform",
+      "description": "VNP Solutions is a comprehensive hotel property management system designed for tracking financial data across multiple online travel agencies (OTAs) including Expedia, Booking.com, and Agoda/Priceline. The platform features a robust dashboard displaying key metrics like collectible revenue ($16,978,083.57), confirmed revenue ($12,476,226.87), total properties (3,223), and audit statistics (3,812 total audits). Users can track property performance, manage audits, view revenue trends, and handle user permissions all from a centralized interface. The system helps hotel management teams reconcile financial data across multiple booking channels and maintain proper audit records for thousands of properties.",
       "projectUrl": "N/A",
-      "client": "N/A",
-      "date": "2024",
-      "duration": "6 months",
-      "category": "Mobile",
-      "theChallenge": "Creating an intuitive yet powerful note app that allows deep customization while remaining accessible to new users.",
-      "ourSolution": "We developed Megamind with a clean interface and powerful tools like tag-based organization, table support, rich text editing, and theme customization. This enables users to tailor the experience to their preferences and needs.",
+      "client": "VNP Solutions",
+      "date": "2025",
+      "duration": "Ongoing",
+      "category": "Hospitality Management Software",
+      "theChallenge": "To create a unified platform that consolidates financial data from multiple online travel agencies while providing robust auditing tools for hotel property managers dealing with thousands of properties.",
+      "ourSolution": "We developed an integrated dashboard with real-time revenue tracking, audit management, and performance analytics. The system connects with major OTAs including Expedia Group, Booking.com and Agoda/Priceline, allowing property managers to view comprehensive financial data, audit statuses, and performance metrics in one place.",
       "gallery": [
-        "/images/projects/gallery/megamind-1.png",
-        "/images/projects/gallery/megamind-2.png",
-        "/images/projects/gallery/megamind-3.png",
-        "/images/projects/gallery/megamind-4.png",
-        "/images/projects/gallery/megamind-5.png"
+        "/images/projects/gallery/vnp-1.png",
+        "/images/projects/gallery/vnp-2.png",
+        "/images/projects/gallery/vnp-3.png",
+        "/images/projects/gallery/vnp-4.png"
       ],
       "results": [
-        "Improved user retention through personalized themes and intuitive UI.",
-        "Boosted productivity with tagging, structured lists, and note templates.",
-        "Positive user feedback on flexibility and ease of use.",
-        "Seamless support for both light and dark modes improved accessibility."
+        "Successfully tracked over $16.9M in collectible revenue and $12.4M in confirmed revenue",
+        "Managed audits for 3,223 properties across multiple hotel groups and portfolios",
+        "Implemented status tracking system with 5,445 status entries for comprehensive monitoring",
+        "Created user management system with role-based access for property managers and portfolio owners"
       ],
       "quote": {
-        "text": "Working with Emile and Abrar was a great experience. They work as part of your team to deliver the best product and experience. 'Just enough' just isn't enough for them",
+        "text": "VNP Solutions has transformed how we manage our hotel portfolio finances, particularly when reconciling revenue across multiple booking platforms.",
         "author": {
-          "name": "Fares",
-          "title": "CMO, Megamind"
+          "name": "Admin User",
+          "title": "Hotel Group Manager"
         }
-      },
-      "isPinned": true
+      }
     },
     {
       "id": 6,
@@ -232,72 +339,6 @@
         }
       },
       "isPinned": true
-    },
-    {
-      "id": 7,
-      "coverImageUrl": "/images/projects/cover/yellow.png",
-      "tags": ["fashion", "e-commerce", "product configurator", "dynamic pricing", "customization", "web app"],
-      "title": "Yellow Custom Shirt",
-      "description": "The Yellow Custom Shirt web app offers a seamless and interactive experience for customizing shirts. Users can modify attributes such as sleeves, collar, cuff, pocket, placket, back, bottom, and embroidery with real-time image rendering and dynamic pricing. Each selection instantly updates the visual shirt model and pricing based on predefined values. Admins can define all shirt configuration options, including fabrics and their color variations. The web interface is intuitive and clean, ensuring users can quickly navigate between customization steps. Originally priced at BDT 3,495, a customized shirt is available for BDT 2,000. The app link is: https://customfit.yellowclothing.net/custom-shirt.",
-      "projectUrl": "https://customfit.yellowclothing.net/custom-shirt",
-      "client": "Yellow",
-      "date": "2024",
-      "duration": "3 months",
-      "category": "Web",
-      "theChallenge": "To build a highly customizable and visually interactive shirt configuration platform that updates shirt visuals and pricing in real time.",
-      "ourSolution": "We developed a dynamic product configurator using a modular architecture that allows full admin control over shirt parts, fabrics, colors, and pricing. Live 3D rendering enhances the user experience and enables instant feedback as customers customize their shirts.",
-      "gallery": [
-        "/images/projects/gallery/yellow-1.png",
-        "/images/projects/gallery/yellow-2.png",
-        "/images/projects/gallery/yellow-3.png",
-        "/images/projects/gallery/yellow-4.png"
-      ],
-      "results": [
-        "Successfully launched a visual shirt customization platform.",
-        "Achieved smooth dynamic image and pricing updates.",
-        "Empowered the admin with complete backend control over fabrics, styles, and prices.",
-        "Boosted customer engagement by offering a tailored shopping experience."
-      ],
-      "quote": {
-        "text": "The real-time customization is a game-changer. I loved being able to see my shirt come to life as I made changes.",
-        "author": {
-          "name": "Rahim Uddin",
-          "title": "Happy Customer"
-        }
-      }
-    },
-    {
-      "id": 8,
-      "coverImageUrl": "/images/projects/cover/quickt.png",
-      "tags": ["money transfer", "remittance", "mobile app", "instant delivery", "Australia", "Lebanon", "web app"],
-      "title": "QuickT - Instant Money Transfer to Lebanon",
-      "description": "QuickT is a web and mobile application that enables users in Australia to send money instantly to recipients in Lebanon. The platform supports preset and custom transfer amounts and ensures instant delivery through over 600 Whish locations in Lebanon. Designed for ease of use, QuickT offers a seamless experience across desktop and mobile platforms. The service is compliant with Australian regulations and supports cash payouts. Transfers are made using a secure and streamlined online process. The app link is: https://www.quickt.com.au.",
-      "projectUrl": "https://www.quickt.com.au",
-      "client": "QuickT",
-      "date": "2024",
-      "duration": "8 months",
-      "category": "Web",
-      "theChallenge": "To create a fast, secure, and user-friendly platform for sending money from Australia to Lebanon with instant delivery and mobile accessibility.",
-      "ourSolution": "We developed a responsive web and mobile application that facilitates instant remittance services. The platform includes a user-friendly UI for custom or preset amounts, secure online transactions, and seamless integration with 600+ pickup locations in Lebanon.",
-      "gallery": [
-        "/images/projects/gallery/quickt-1.png",
-        "/images/projects/gallery/quickt-2.png",
-        "/images/projects/gallery/quickt-3.png",
-        "/images/projects/gallery/quickt-4.png"
-      ],
-      "results": [
-        "Launched a compliant and fully operational money transfer platform.",
-        "Enabled instant cash delivery to over 600 Whish locations in Lebanon.",
-        "Improved user experience with mobile-first design and quick onboarding.",
-        "Established QuickT as a trusted solution for remittances from Australia to Lebanon."
-      ],
-      "quote": {
-        "text": "QuickT made sending money to my family effortless and fast. I love how quick and simple the whole process is.",
-        "author": {
-          "name": "Samir Khoury",
-          "title": "Happy Customer"
-        }
-      }
     },
     {
       "id": 9,
@@ -366,46 +407,7 @@
         }
       }
     },
-    {
-      "id": 10,
-      "coverImageUrl": "/images/projects/cover/vnp.png",
-      "tags": [
-        "Hotel Management",
-        "Property Auditing",
-        "Revenue Management",
-        "Dashboard",
-        "OTA Integration",
-        "Hospitality"
-      ],
-      "title": "VNP Solutions Hotel Management Platform",
-      "description": "VNP Solutions is a comprehensive hotel property management system designed for tracking financial data across multiple online travel agencies (OTAs) including Expedia, Booking.com, and Agoda/Priceline. The platform features a robust dashboard displaying key metrics like collectible revenue ($16,978,083.57), confirmed revenue ($12,476,226.87), total properties (3,223), and audit statistics (3,812 total audits). Users can track property performance, manage audits, view revenue trends, and handle user permissions all from a centralized interface. The system helps hotel management teams reconcile financial data across multiple booking channels and maintain proper audit records for thousands of properties.",
-      "projectUrl": "N/A",
-      "client": "VNP Solutions",
-      "date": "2025",
-      "duration": "Ongoing",
-      "category": "Hospitality Management Software",
-      "theChallenge": "To create a unified platform that consolidates financial data from multiple online travel agencies while providing robust auditing tools for hotel property managers dealing with thousands of properties.",
-      "ourSolution": "We developed an integrated dashboard with real-time revenue tracking, audit management, and performance analytics. The system connects with major OTAs including Expedia Group, Booking.com and Agoda/Priceline, allowing property managers to view comprehensive financial data, audit statuses, and performance metrics in one place.",
-      "gallery": [
-        "/images/projects/gallery/vnp-1.png",
-        "/images/projects/gallery/vnp-2.png",
-        "/images/projects/gallery/vnp-3.png",
-        "/images/projects/gallery/vnp-4.png"
-      ],
-      "results": [
-        "Successfully tracked over $16.9M in collectible revenue and $12.4M in confirmed revenue",
-        "Managed audits for 3,223 properties across multiple hotel groups and portfolios",
-        "Implemented status tracking system with 5,445 status entries for comprehensive monitoring",
-        "Created user management system with role-based access for property managers and portfolio owners"
-      ],
-      "quote": {
-        "text": "VNP Solutions has transformed how we manage our hotel portfolio finances, particularly when reconciling revenue across multiple booking platforms.",
-        "author": {
-          "name": "Admin User",
-          "title": "Hotel Group Manager"
-        }
-      }
-    },
+
     {
       "id": 11,
       "coverImageUrl": "/images/projects/cover/ai-valet.png",
@@ -448,14 +450,7 @@
     {
       "id": 12,
       "coverImageUrl": "/images/projects/cover/trade-lens.png",
-      "tags": [
-        "Supply Chain",
-        "Blockchain",
-        "Digital Documentation",
-        "Logistics",
-        "Shipping",
-        "Trade Finance"
-      ],
+      "tags": ["Supply Chain", "Blockchain", "Digital Documentation", "Logistics", "Shipping", "Trade Finance"],
       "title": "TradeLens",
       "description": "TradeLens is a secure, blockchain-powered platform that simplifies and accelerates global trade by digitizing supply chain workflows. With tools for real-time container tracking, digital Bills of Lading, and analytics, it helps importers, exporters, and logistics providers reduce delays, cut costs, and streamline trade operations across the globe.",
       "projectUrl": "N/A",
@@ -565,6 +560,5 @@
         }
       }
     }
-
   ]
 }
