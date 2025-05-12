@@ -39,7 +39,7 @@ export default function CTOAsService() {
               alt={ctoAsService.rightContent.title}
               width={600}
               height={200}
-              className='w-full h-auto aspect-[3/1] object-cover'
+              className='w-full h-auto aspect-video object-top object-cover'
             />
             <div className='p-4 sm:p-6 space-y-5'>
               <h3 className='text-2xl font-bold'>{ctoAsService.rightContent.title}</h3>

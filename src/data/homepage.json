@@ -13,7 +13,7 @@
       "text": "Explore Services",
       "link": "services"
     },
-    "heroImgUrl": "/images/homepage/hero/hero.jpg"
+    "heroImgUrl": "/images/homepage/hero/hero.png"
   },
   "about": {
     "title": [
@@ -118,12 +118,12 @@
     "tabs": [
       {
         "id": 1,
-        "title": "CMS Solutions",
-        "icon": "lucide:database",
+        "title": "AI & ML",
+        "icon": "lucide:sparkles",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
-          "title": "CMS Solutions",
-          "description": "We offer comprehensive CMS solutions that streamline digital content management, utilizing platforms like WordPress, Shopify, Magento, and OpenCart.",
+          "img": "/images/homepage/services/ai.png",
+          "title": "AI & ML",
+          "description": "We offer AI and ML solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
             "Custom CMS Development",
             "E-commerce Solutions",
@@ -138,7 +138,7 @@
         "title": "Platforms",
         "icon": "lucide:globe",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
+          "img": "/images/homepage/services/platforms.png",
           "title": "Platforms",
           "description": "We offer mobile and web platforms that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -152,27 +152,10 @@
       },
       {
         "id": 3,
-        "title": "User Experience",
-        "icon": "lucide:layers",
-        "content": {
-          "img": "/images/homepage/services/placeholder.png",
-          "title": "User Experience",
-          "description": "We offer user interfaces and user experiences that are designed to help your business thrive in the digital galaxy.",
-          "listItems": [
-            "Custom CMS Development",
-            "E-commerce Solutions",
-            "Content Management",
-            "User Management",
-            "Reporting and Analytics"
-          ]
-        }
-      },
-      {
-        "id": 4,
         "title": "Infrastructure",
         "icon": "lucide:cpu",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
+          "img": "/images/homepage/services/infra.png",
           "title": "Infrastructure",
           "description": "We offer infrastructure solutions that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
@@ -185,13 +168,13 @@
         }
       },
       {
-        "id": 5,
-        "title": "CAD/CAM",
-        "icon": "lucide:code",
+        "id": 4,
+        "title": "User Experience",
+        "icon": "lucide:layers",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
-          "title": "CAD/CAM",
-          "description": "We offer CAD/CAM solutions that are designed to help your business thrive in the digital galaxy.",
+          "img": "/images/homepage/services/ux.png",
+          "title": "User Experience",
+          "description": "We offer user interfaces and user experiences that are designed to help your business thrive in the digital galaxy.",
           "listItems": [
             "Custom CMS Development",
             "E-commerce Solutions",
@@ -202,13 +185,13 @@
         }
       },
       {
-        "id": 6,
-        "title": "AI & ML",
-        "icon": "lucide:sparkles",
+        "id": 5,
+        "title": "CMS Solutions",
+        "icon": "lucide:database",
         "content": {
-          "img": "/images/homepage/services/placeholder.png",
-          "title": "AI & ML",
-          "description": "We offer AI and ML solutions that are designed to help your business thrive in the digital galaxy.",
+          "img": "/images/homepage/services/cms.png",
+          "title": "CMS Solutions",
+          "description": "We offer comprehensive CMS solutions that streamline digital content management, utilizing platforms like WordPress, Shopify, Magento, and OpenCart.",
           "listItems": [
             "Custom CMS Development",
             "E-commerce Solutions",
@@ -350,7 +333,7 @@
         "description": "We stand behind our work, providing ongoing support and maintenance to ensure your technology continues to perform at its best."
       }
     ],
-    "imageUrl": "/images/homepage/projects/placeholder.jpg"
+    "imageUrl": "/images/homepage/rebel-advantage/image.png"
   },
   "ctoAsService": {
     "title": [
@@ -401,7 +384,7 @@
     },
     "rightContent": {
       "title": "Why Businesses Choose Us",
-      "imageUrl": "/images/homepage/cto-as-service/placeholder.png",
+      "imageUrl": "/images/homepage/cto-as-service/image.png",
       "items": [
         {
           "id": 1,
