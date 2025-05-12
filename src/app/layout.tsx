@@ -1,5 +1,6 @@
 import Footer from '@/components/common/Footer'
 import Navbar from '@/components/common/Navbar'
+import { ScrollToTop } from '@/components/ui/scroll-to-top'
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
@@ -31,6 +32,7 @@ export default function RootLayout({
         {children}
         <Toaster />
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   )

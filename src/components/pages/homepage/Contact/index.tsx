@@ -1,7 +1,7 @@
 'use client'
-import { contactApi } from '@/app/configs'
 import { BorderBeam } from '@/components/magicui/border-beam'
 import { Button } from '@/components/ui/button'
+import { contactApi } from '@/configs'
 import data from '@/data/homepage.json'
 import { Loader2 } from 'lucide-react'
 import { ChangeEvent, useState } from 'react'
