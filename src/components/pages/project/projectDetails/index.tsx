@@ -1,9 +1,9 @@
-import ScrollableImage from '@/components/common/ScrollableImage'
 import CTA from '@/components/pages/homepage/CTA'
 import ProjectHeader from '@/components/pages/project/projectDetails/ProjectHeader'
 import ProjectTimeline from '@/components/pages/project/projectDetails/ProjectTimeline'
 import data from '@/data/projects.json'
 import { CircleCheck, Quote } from 'lucide-react'
+import Image from 'next/image'
 
 const cta = {
   title: 'Ready to start your next project?',
@@ -45,15 +45,13 @@ export default function ProjectDetails({ id }: { id: string }) {
           <h2 className='text-2xl md:text-3xl font-bold'>Gallery</h2>
           <div className='grid grid-cols-1 min-[500px]:grid-cols-2 md:grid-cols-3 gap-4'>
             {project.gallery.map((image, index) => (
-              <div key={index} className='rounded-md overflow-hidden aspect-video'>
-                <ScrollableImage
+              <div key={index} className='aspect-video overflow-hidden rounded-md group'>
+                <Image
                   src={image}
                   alt={project.title}
                   width={500}
                   height={400}
-                  containerClassName='w-full h-full'
-                  scrollDuration={5}
-                  returnDuration={0.5}
+                  className='h-full object-cover object-top transition-all duration-500 group-hover:object-bottom group-hover:duration-[3000ms] ease-in-out'
                 />
               </div>
             ))}
