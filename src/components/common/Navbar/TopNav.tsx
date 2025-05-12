@@ -1,5 +1,6 @@
 'use client'
 import logoDark from '@/assets/logo/logo-dark.png'
+import { RainbowButton } from '@/components/magicui/rainbow-button'
 import { cn } from '@/lib/utils'
 import { AlignRight } from 'lucide-react'
 import Image from 'next/image'
@@ -86,8 +87,19 @@ export default function TopNav({ setIsOpen }: Props) {
           ))}
         </ul>
 
-        <div className={cn('w-32 hidden md:block', { 'hidden md:hidden': isScrolled })} />
-        <AlignRight className='w-6 h-6 md:hidden cursor-pointer' onClick={() => setIsOpen(true)} />
+        <div>
+          <a
+            href='https://calendly.com/abraranwar09'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hidden md:inline-block'
+          >
+            <RainbowButton variant='custom' className='bg-primary text-white'>
+              Schedule a Call
+            </RainbowButton>
+          </a>
+          <AlignRight className='w-6 h-6 md:hidden cursor-pointer' onClick={() => setIsOpen(true)} />
+        </div>
       </div>
     </nav>
   )

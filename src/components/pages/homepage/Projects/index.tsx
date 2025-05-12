@@ -16,7 +16,7 @@ export default function Projects() {
         <Heading title={projects.title as HeadingTitle[]} description={projects.description} />
       </div>
 
-      <div className='grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-5 max-w-4xl mx-auto px-4'>
+      <div className='grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-5 max-w-6xl mx-auto px-4'>
         {pinnedProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
