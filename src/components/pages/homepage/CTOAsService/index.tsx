@@ -54,10 +54,10 @@ export default function CTOAsService() {
                 ))}
               </div>
 
-              <div className='bg-[#121924] rounded-md p-3 sm:p-5 space-y-2.5'>
+              {/* <div className='bg-[#121924] rounded-md p-3 sm:p-5 space-y-2.5'>
                 <p className='text-muted-foreground text-sm'>{ctoAsService.rightContent.quote.text}</p>
                 <p className='text-sm font-bold'> — {ctoAsService.rightContent.quote.author}</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
