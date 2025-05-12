@@ -21,6 +21,7 @@ export default function InputGroup({
   name?: string
   onChange?: (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void
   rows?: number
+  value?: string
   inputClassName?: string
   textareaClassName?: string
 }) {

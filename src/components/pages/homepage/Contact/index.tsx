@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import data from '@/data/homepage.json'
 import { Loader2 } from 'lucide-react'
 import { ChangeEvent, useState } from 'react'
+import { toast } from 'react-hot-toast'
 import Heading, { HeadingTitle } from '../common/Heading'
 import InputGroup from './InputGroup'
 
@@ -31,7 +32,12 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    if (!formData.name || !formData.email || !formData.subject || !formData.message) {
+      toast.error('Please fill all the fields')
+      return
+    }
     setisLoading(true)
+    toast.loading('Sending message...')
     try {
       await fetch(contactApi, {
         method: 'POST',
@@ -41,12 +47,14 @@ export default function Contact() {
         body: JSON.stringify(formData),
       })
       setisLoading(false)
-      alert('Message sent successfully!')
+      toast.dismiss()
+      toast.success('Message sent successfully!')
       setformData(initialFormData)
     } catch (error) {
       setformData(initialFormData)
       setisLoading(false)
-      alert((error as Error).message)
+      toast.dismiss()
+      toast.error((error as Error).message)
     }
   }
 
@@ -59,12 +67,20 @@ export default function Contact() {
         onSubmit={handleSubmit}
       >
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
-          <InputGroup id='name' label='Name' placeholder='Enter your name' name='name' onChange={handleOnchangeInput} />
+          <InputGroup
+            id='name'
+            label='Name'
+            placeholder='Enter your name'
+            name='name'
+            value={formData.name}
+            onChange={handleOnchangeInput}
+          />
           <InputGroup
             id='email'
             label='Email'
             placeholder='Enter your email'
             name='email'
+            value={formData.email}
             onChange={handleOnchangeInput}
           />
         </div>
@@ -74,6 +90,7 @@ export default function Contact() {
           label='Subject'
           placeholder='Enter your subject'
           name='subject'
+          value={formData.subject}
           onChange={handleOnchangeInput}
         />
         <InputGroup
@@ -82,6 +99,7 @@ export default function Contact() {
           label='Message'
           placeholder='Enter your message'
           name='message'
+          value={formData.message}
           onChange={handleOnchangeInput}
           isTextarea
           rows={5}
